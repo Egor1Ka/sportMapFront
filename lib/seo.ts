@@ -4,7 +4,7 @@ import { routing } from '@/i18n/routing'
 
 export const SITE = {
 	name: 'Dvir',
-	url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://dvir.app',
+	url: process.env.NEXT_PUBLIC_SITE_URL || 'https://dvir.app',
 	twitter: '@dvir',
 	keywords: [
 		'sports playgrounds',
