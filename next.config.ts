@@ -3,6 +3,10 @@ import createNextIntlPlugin from 'next-intl/plugin'
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts')
 
+// Rewrites are baked at build time, so BACKEND_URL must resolve to a valid URL
+// during `next build`. Default to the compose service name used in production.
+const backendUrl = process.env.BACKEND_URL || 'http://api:9000'
+
 const nextConfig: NextConfig = {
 	output: 'standalone',
 	serverExternalPackages: ['newrelic'],
@@ -16,7 +20,7 @@ const nextConfig: NextConfig = {
 		return [
 			{
 				source: '/api/:path*',
-				destination: `${process.env.BACKEND_URL}/api/:path*`,
+				destination: `${backendUrl}/api/:path*`,
 			},
 		]
 	},

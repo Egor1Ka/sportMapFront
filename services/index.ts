@@ -130,21 +130,3 @@ export type {
 	RatingAggregate,
 	UpsertRatingBody,
 } from './configs/rating.config'
-export type {
-	BookingStatus,
-	StaffMember,
-	StaffBySlugResponse,
-	EventType,
-	WeeklyHours,
-	TimeRange,
-	ScheduleTemplate,
-	ScheduleOverride,
-	CreateScheduleOverrideBody,
-	Invitee,
-	CreateBookingBody,
-	BookingResponse,
-	StaffBooking,
-	CancelByIdBody,
-	OrgBySlugResponse,
-	OrgStaffMember,
-} from './configs/booking.types'
