@@ -1,0 +1,11 @@
+.next
+node_modules
+build
+out
+coverage
+*.tsbuildinfo
+next-env.d.ts
+package-lock.json
+.agents
+.claude
+newrelic_agent.log

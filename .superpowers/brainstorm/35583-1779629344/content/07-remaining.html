@@ -1,0 +1,70 @@
+<h2>Залишилось 4 розвилки — обери позначками</h2>
+<p class="subtitle">Натисни кружок в кожному ряду (можна декілька)</p>
+
+<div style="display:flex;flex-direction:column;gap:18px;margin-top:8px">
+
+  <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:14px">
+    <div style="font-size:13px;font-weight:700;margin-bottom:4px">1. Події на мапі?</div>
+    <div style="font-size:12px;color:#64748b;margin-bottom:10px">Live check-ins вже на мапі. А запланована подія (футбол о 18:00) — теж пін чи тільки у стрічці?</div>
+    <div class="options" data-multiselect>
+      <div class="option" data-choice="events-on-map" onclick="toggleSelect(this)">
+        <div class="letter">1A</div>
+        <div class="content"><h3>Так, синій пін з часом</h3><p>Біля червоного (live) піна — синій з "18:00". Активність + майбутнє одразу.</p></div>
+      </div>
+      <div class="option" data-choice="events-feed-only" onclick="toggleSelect(this)">
+        <div class="letter">1B</div>
+        <div class="content"><h3>Тільки у стрічці</h3><p>Мапа = тільки "зараз". Події — внизу. Простіше, чистіше.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:14px">
+    <div style="font-size:13px;font-weight:700;margin-bottom:4px">2. Клік на пін → що?</div>
+    <div style="font-size:12px;color:#64748b;margin-bottom:10px">Користувач тицьнув пін з "⚽ 12". Що відкривається?</div>
+    <div class="options" data-multiselect>
+      <div class="option" data-choice="popup" onclick="toggleSelect(this)">
+        <div class="letter">2A</div>
+        <div class="content"><h3>Поп-ап біля піна</h3><p>Назва + фото + 2 CTA: "До майданчика", "Check-in".</p></div>
+      </div>
+      <div class="option" data-choice="bottom-sheet" onclick="toggleSelect(this)">
+        <div class="letter">2B</div>
+        <div class="content"><h3>Картка знизу (peek)</h3><p>Підіймається з низу — фото, рейтинг, спорт, кнопка "Детальніше".</p></div>
+      </div>
+      <div class="option" data-choice="navigate" onclick="toggleSelect(this)">
+        <div class="letter">2C</div>
+        <div class="content"><h3>Одразу на стор. майданчика</h3><p>Без проміжного — клік відкриває /sports-map/[id].</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:14px">
+    <div style="font-size:13px;font-weight:700;margin-bottom:4px">3. Геолокація</div>
+    <div style="font-size:12px;color:#64748b;margin-bottom:10px">Сторінка про "поруч". А якщо користувач не дав дозвіл або не залогінений?</div>
+    <div class="options" data-multiselect>
+      <div class="option" data-choice="geo-required" onclick="toggleSelect(this)">
+        <div class="letter">3A</div>
+        <div class="content"><h3>Запитати на старті</h3><p>Якщо відмова — показати "Київ" як дефолт і кнопку "Дозволити геолокацію".</p></div>
+      </div>
+      <div class="option" data-choice="geo-city" onclick="toggleSelect(this)">
+        <div class="letter">3B</div>
+        <div class="content"><h3>Вибір міста</h3><p>Зверху селектор міста (Київ/Харків/...). Геолокація опційна.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:14px">
+    <div style="font-size:13px;font-weight:700;margin-bottom:4px">4. Доступ — public чи лише авторизовані?</div>
+    <div style="font-size:12px;color:#64748b;margin-bottom:10px">Сторінка в групі <code>(public-app)</code>. Дивитись — без логіну? А check-in?</div>
+    <div class="options" data-multiselect>
+      <div class="option" data-choice="view-public" onclick="toggleSelect(this)">
+        <div class="letter">4A</div>
+        <div class="content"><h3>Перегляд — public</h3><p>Будь-хто бачить мапу, стрічку. Без логіну.</p></div>
+      </div>
+      <div class="option" data-choice="action-auth" onclick="toggleSelect(this)">
+        <div class="letter">4B</div>
+        <div class="content"><h3>Дії — лише з логіном</h3><p>Check-in, RSVP на подію — вимагають логін (модалка/редірект).</p></div>
+      </div>
+    </div>
+  </div>
+
+</div>

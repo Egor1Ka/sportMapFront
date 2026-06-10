@@ -1,0 +1,709 @@
+{
+	"metadata": {
+		"title": "Dvir — Грай поруч",
+		"description": "Знаходь спортивні майданчики та ігри поруч з тобою."
+	},
+	"nav": {
+		"map": "Карта",
+		"activity": "Активність",
+		"moderation": "Модерація"
+	},
+	"qrPrint": {
+		"tagline": "Майданчики у твоєму місті"
+	},
+	"sportsMapPages": {
+		"list": {
+			"loadError": "Не вдалося завантажити точки",
+			"createPlayground": "Створити площадку",
+			"loadingMap": "Завантаження карти…"
+		},
+		"detail": {
+			"loadError": "Не вдалося завантажити площадку",
+			"notFound": "Площадка не знайдена",
+			"backToMap": "Назад до карти",
+			"unknownError": "Невідома помилка",
+			"noName": "Без назви",
+			"heroPhotoAria": "Відкрити фото на весь екран",
+			"photoOpenAria": "Відкрити фото {n}",
+			"photoAlt": "Фото {n}",
+			"edit": "Редагувати",
+			"mapBreadcrumb": "Карта",
+			"tabActivity": "Активність",
+			"tabOverview": "Огляд",
+			"descriptionTitle": "Опис",
+			"noDescription": "Опис ще не додано",
+			"sportsTitle": "Види спорту",
+			"photosTitle": "Фото",
+			"locationTitle": "Розташування",
+			"noAddress": "Адресу не вказано",
+			"getDirections": "Прокласти маршрут",
+			"openInOsm": "Відкрити в OpenStreetMap",
+			"share": "Поділитися",
+			"copySuccess": "Посилання скопійовано",
+			"copyError": "Не вдалося скопіювати посилання",
+			"addedOn": "Додано {date}"
+		},
+		"edit": {
+			"loadError": "Не вдалося завантажити площадку",
+			"notFound": "Площадка не знайдена",
+			"backToMap": "Назад до карти",
+			"backToPlayground": "До площадки",
+			"editingBadge": "Редагування",
+			"noName": "Без назви",
+			"latMustBeNumber": "Має бути число",
+			"latRange": "Від -90 до 90",
+			"lngMustBeNumber": "Має бути число",
+			"lngRange": "Від -180 до 180",
+			"sectionBasic": "Основна інформація",
+			"fieldName": "Назва",
+			"namePlaceholder": "Стадіон Метеор",
+			"fieldDescription": "Опис",
+			"descriptionPlaceholder": "Покриття, освітлення, час роботи...",
+			"descriptionHint": "До 2000 символів",
+			"sectionAddress": "Адреса",
+			"fieldFullAddress": "Повна адреса",
+			"fullAddressPlaceholder": "вул. Січеславська Набережна, 17",
+			"fieldCity": "Місто",
+			"fieldDistrict": "Район",
+			"fieldStreet": "Вулиця",
+			"sectionCoords": "Координати",
+			"fieldLat": "Широта (lat)",
+			"fieldLng": "Довгота (lng)",
+			"sectionSports": "Види спорту",
+			"sportsSelected": "обрано {count}",
+			"sportsNone": "не обрано",
+			"sectionPhotos": "Фото",
+			"addPhoto": "Додати фото",
+			"photoAutoSaveHint": "Зберігаються автоматично — кнопка нижче лише для текстових полів",
+			"addFirstPhoto": "Додати перше фото",
+			"photoFormats": "JPG, PNG, WebP, GIF — до {max}",
+			"photoAlt": "Фото {n}",
+			"deletePhotoAria": "Видалити фото",
+			"photoUnsupportedFormat": "Непідтримуваний формат",
+			"photoAllowedFormats": "Дозволено: JPG, PNG, WebP, GIF",
+			"photoTooLarge": "Файл завеликий",
+			"photoTooLargeDesc": "Розмір {size} — максимум {max}",
+			"photoAdded": "Фото додано",
+			"photoUploadError": "Не вдалося завантажити фото",
+			"photoRemoved": "Фото видалено",
+			"photoRemoveError": "Не вдалося видалити фото",
+			"noChangesHint": "Внесіть зміни в поля, щоб зберегти",
+			"cancel": "Скасувати"
+		},
+		"new": {
+			"latRequired": "Оберіть місце на карті",
+			"latRange": "Від -90 до 90",
+			"lngRequired": "Оберіть місце на карті",
+			"lngRange": "Від -180 до 180",
+			"backToMap": "Назад до карти",
+			"mapBreadcrumb": "Карта",
+			"breadcrumbNew": "Нова площадка",
+			"pageTitle": "Створити площадку",
+			"pageSubtitle": "Заповніть основну інформацію та оберіть місце на карті. Фото та інші деталі можна буде додати після створення.",
+			"sectionBasic": "Основна інформація",
+			"fieldName": "Назва",
+			"namePlaceholder": "Стадіон Метеор",
+			"fieldDescription": "Опис",
+			"descriptionPlaceholder": "Покриття, освітлення, час роботи...",
+			"descriptionHint": "До 2000 символів",
+			"sectionLocation": "Розташування",
+			"sectionAddress": "Адреса",
+			"fieldFullAddress": "Повна адреса",
+			"fullAddressPlaceholder": "вул. Січеславська Набережна, 17",
+			"fullAddressAutoHint": "Автоматично заповнюється при виборі на карті",
+			"fieldCity": "Місто",
+			"fieldDistrict": "Район",
+			"fieldStreet": "Вулиця",
+			"sectionSports": "Види спорту",
+			"sportsSelected": "обрано {count}",
+			"sportsNone": "не обрано",
+			"sectionPhotos": "Фото",
+			"addPhoto": "Додати фото",
+			"photoAutoUploadHint": "Файли завантажаться автоматично після створення площадки",
+			"dropzoneLabel": "Виберіть або перетягніть фото",
+			"photoFormats": "JPG, PNG, WebP, GIF — до {max}",
+			"deletePhotoAria": "Видалити фото",
+			"someFilesRejected": "Деякі файли не додано",
+			"allowedFormatsHint": "Дозволено JPG/PNG/WebP/GIF до {max}",
+			"uploadingPhoto": "Завантаження фото {uploaded}/{total}…",
+			"uploadDone": "Фото завантажено ({uploaded}/{total})",
+			"uploadPartial": "Завантажено {uploaded}/{total} фото — інші можна додати на сторінці редагування",
+			"loadSportsError": "Не вдалося завантажити види спорту",
+			"createSuccess": "Площадку створено",
+			"createError": "Не вдалося створити площадку",
+			"readyToCreate": "Готово до створення",
+			"pickLocationHint": "Оберіть місце на карті, щоб продовжити",
+			"cancel": "Скасувати",
+			"submitButton": "Створити площадку"
+		},
+		"print": {
+			"loadError": "Не вдалося завантажити майданчик",
+			"loadErrorDesc": "Перевірте посилання та спробуйте ще раз.",
+			"retry": "Спробувати ще",
+			"backToMap": "До карти",
+			"reprintButton": "Друкувати ще раз",
+			"backToPlayground": "До майданчика"
+		}
+	},
+	"feedbackUi": {
+		"comments": {
+			"validationMin": "Введіть текст коментаря",
+			"validationMax": "Максимум {max} символів",
+			"loadError": "Не вдалося завантажити коментарі",
+			"toastPublished": "Коментар опубліковано",
+			"toastDeleted": "Коментар видалено",
+			"heading": "Коментарі",
+			"fieldLabel": "Ваш коментар",
+			"placeholder": "Поділіться враженнями про площадку",
+			"fieldDescription": "До {max} символів.",
+			"buttonSubmitting": "Публікація…",
+			"buttonSubmit": "Опублікувати",
+			"empty": "Ще немає коментарів. Будьте першим!",
+			"paginationPrev": "Назад",
+			"paginationNext": "Далі"
+		},
+		"rating": {
+			"loadError": "Не вдалося завантажити оцінки",
+			"toastThankYou": "Дякуємо за оцінку!",
+			"ratingsCount": "{count, plural, one {{count} оцінка} few {{count} оцінки} many {{count} оцінок} other {{count} оцінок}}",
+			"noRatings": "Поки немає оцінок",
+			"yourRatingLabel": "Ваша оцінка"
+		},
+		"commentItem": {
+			"userFallback": "Користувач",
+			"deleteAriaLabel": "Видалити коментар",
+			"deleteDialogTitle": "Видалити коментар?",
+			"deleteDialogDescription": "Цю дію не можна скасувати. Коментар буде видалено назавжди.",
+			"deleteDialogCancel": "Скасувати",
+			"deleteDialogConfirm": "Видалити"
+		},
+		"stars": {
+			"starAriaLabel": "{count, plural, one {Поставити {count} зірку} few {Поставити {count} зірки} many {Поставити {count} зірок} other {Поставити {count} зірок}}",
+			"valueOfMax": "{value} з {max}",
+			"noRating": "Без оцінки",
+			"chooseRating": "Виберіть оцінку"
+		},
+		"section": {
+			"title": "Відгуки",
+			"signInTitle": "Увійдіть, щоб залишити оцінку та коментар",
+			"signInDescription": "Перегляд оцінок та коментарів доступний усім, але писати можуть лише авторизовані користувачі.",
+			"signIn": "Увійти"
+		}
+	},
+	"sportsMapUi": {
+		"map": {
+			"fallbackTitle": "Без назви",
+			"sportObject": "спортивний об’єкт",
+			"ratingAria": "Середня оцінка {average} з 5"
+		},
+		"filter": {
+			"all": "Всі види спорту",
+			"count": "{count, plural, one {{count} вид спорту} few {{count} види спорту} many {{count} видів спорту} other {{count} видів спорту}}",
+			"heading": "Види спорту",
+			"reset": "Скинути"
+		},
+		"lightbox": {
+			"close": "Закрити",
+			"prev": "Попереднє фото",
+			"next": "Наступне фото",
+			"photoAlt": "Фото {n}"
+		},
+		"locationPicker": {
+			"searchPlaceholder": "Пошук за адресою…",
+			"clearSearch": "Очистити пошук",
+			"nothingFound": "Нічого не знайдено",
+			"clickHint": "Клікніть на карті або перетягніть маркер",
+			"myLocation": "Моя локація",
+			"latLabel": "Широта (lat)",
+			"lngLabel": "Довгота (lng)"
+		},
+		"printQr": {
+			"ariaLabel": "Друкувати QR-код майданчика",
+			"label": "QR-код для друку"
+		},
+		"eventDetail": {
+			"loadError": "Не вдалося завантажити подію",
+			"notFound": "Подію не знайдено",
+			"playground": "Майданчик"
+		},
+		"eventTime": {
+			"today": "Сьогодні",
+			"tomorrow": "Завтра",
+			"minutesShort": "хв",
+			"hoursShort": "год"
+		}
+	},
+	"activity": {
+		"title": "Активність",
+		"subtitle": "Що відбувається зараз",
+		"filters": {
+			"all": "Всі види"
+		},
+		"sections": {
+			"events": "Події",
+			"eventsTagline": "Найближчі ігри",
+			"eventsEmpty": "Поки що жодних подій поруч",
+			"playgrounds": "Топ майданчики",
+			"playgroundsTagline": "Найгарячіші місця",
+			"playgroundsEmpty": "Тут пусто"
+		},
+		"geo": {
+			"pending": "Запитуємо геолокацію…",
+			"denied": "Дозволити геолокацію",
+			"city": "Місто",
+			"blockedTitle": "Геолокацію заблоковано",
+			"blockedHint": "Натисни 🔒 в адресному рядку, обери \"Налаштування сайту\" → \"Місцезнаходження\" → \"Дозволити\".",
+			"blockedHintShort": "Розблокуй у налаштуваннях сайту в браузері"
+		},
+		"hero": {
+			"title": "Знайди майданчики та події поруч",
+			"subtitle": "Дозволь доступ до геолокації — і ми покажемо топ-майданчики та найближчі ігри у твоєму районі.",
+			"cta": "Дозволити геолокацію",
+			"hint": "Поки геолокація не доступна, показуємо топ по всій Україні."
+		},
+		"feed": {
+			"live": {
+				"badge": "LIVE",
+				"title": "{count, plural, one {# людина грає} few {# людини грають} other {# людей грають}}",
+				"distanceMeters": "{meters} м",
+				"distanceKm": "{km} км"
+			},
+			"soon": {
+				"badge": "СКОРО",
+				"titleMinutes": "{sport} за {minutes} хв",
+				"titleHours": "{sport} за {hours} год",
+				"titleTomorrow": "{sport} завтра о {time}"
+			},
+			"top": {
+				"badge": "ТОП"
+			},
+			"empty": "У цьому районі поки тихо"
+		},
+		"error": {
+			"title": "Не вдалося завантажити дані",
+			"retry": "Спробувати знову"
+		}
+	},
+	"moderation": {
+		"banner": {
+			"title": "Це не ваша площадка",
+			"description": "Зміни назви, опису, адреси та координат відправляться на модерацію адміну. Види спорту та фото можна додати одразу."
+		},
+		"submit": {
+			"propose": "Запропонувати зміни",
+			"save": "Зберегти зміни",
+			"hint": "Зміни побачать інші користувачі після перевірки адміном"
+		},
+		"toast": {
+			"saved": "Зміни збережено",
+			"saveFailed": "Не вдалося зберегти зміни",
+			"submitted": "Заявку надіслано",
+			"submittedDesc": "Адмін перевірить ваші зміни",
+			"nothingToChange": "Немає змін для збереження"
+		}
+	},
+	"admin": {
+		"requests": {
+			"title": "Заявки на модерацію",
+			"subtitle": "Перегляньте та затвердьте або відхиліть запропоновані правки",
+			"empty": "Немає заявок на модерацію",
+			"playgroundFallbackName": "Без назви",
+			"tabs": {
+				"pending": "Очікують",
+				"approved": "Затверджені",
+				"rejected": "Відхилені"
+			},
+			"approve": "Затвердити",
+			"reject": "Відхилити",
+			"proposedBy": "Запропонував",
+			"allFieldsUnchanged": "Усі запропоновані поля вже відповідають поточному стану",
+			"toastApproved": "Зміни застосовано",
+			"toastRejected": "Заявку відхилено",
+			"toastApproveFailed": "Не вдалося затвердити заявку",
+			"toastRejectFailed": "Не вдалося відхилити заявку",
+			"field": {
+				"name": "Назва",
+				"description": "Опис",
+				"address": "Адреса",
+				"fullAddress": "Повна",
+				"city": "Місто",
+				"district": "Район",
+				"street": "Вулиця",
+				"lat": "Широта",
+				"lng": "Довгота"
+			}
+		}
+	},
+	"landing": {
+		"nav": {
+			"logo": "Dvir",
+			"howItWorks": "Як",
+			"features": "Можливості",
+			"map": "Карта",
+			"login": "Увійти",
+			"signup": "Карта"
+		},
+		"hero": {
+			"badge": "Live · 120+ об'єктів на карті",
+			"titleLine1": "Кожен спорт.",
+			"titleLine2Highlight": "Кожен",
+			"titleLine2Suffix": " майданчик.",
+			"subtitle": "Футбол, баскетбол, фітнес, скелелазіння, йога, навіть шахи — кожен спортивний об'єкт твого міста на одній живій карті. Безкоштовно.",
+			"primaryCta": "Відкрити карту",
+			"secondaryCta": "Увійти",
+			"scrollHint": "Прокрути",
+			"stats": {
+				"playgrounds": { "value": "120+", "label": "Об'єктів" },
+				"cities": { "value": "15", "label": "Міст" },
+				"reviews": { "value": "800+", "label": "Відгуків" }
+			},
+			"map": {
+				"live": "Live preview",
+				"count": "120+ об'єктів",
+				"open": "Відкрити карту"
+			}
+		},
+		"mapBlock": {
+			"eyebrow": "01 / Карта",
+			"title": "Кожен майданчик. На одній живій карті.",
+			"description": "Усі спортивні майданчики твого міста на карті в реальному часі. Фільтруй за видом спорту, наближай, тапай по пінах — і дізнавайся все одразу.",
+			"cta": "Відкрити карту",
+			"countLabel": "120+ об'єктів · live"
+		},
+		"photosBlock": {
+			"eyebrow": "02 / Фото",
+			"title": "Реальні фото. Від реальних гравців.",
+			"description": "До кожного майданчика — фото від спільноти. Подивись, у що ти йдеш: покриття, освітлення, атмосфера.",
+			"carousel": [
+				{ "tag": "Футбол · Штучне покриття", "name": "Олімпійський", "rating": "4.9" },
+				{ "tag": "Баскетбол · Вуличний", "name": "Парк Шевченка", "rating": "4.8" },
+				{ "tag": "Теніс · Хард", "name": "ЦСК Теніс", "rating": "4.6" },
+				{ "tag": "Скейт · Бетон", "name": "Skate Plaza", "rating": "4.7" },
+				{ "tag": "Фітнес · Воркаут", "name": "Workout Зона", "rating": "4.5" }
+			]
+		},
+		"qrBlock": {
+			"eyebrow": "03 / QR-коди",
+			"title": "Роздрукуй один. Поділись скрізь.",
+			"description": "Згенеруй та роздрукуй QR для будь-якого майданчика. Один скан — і людина вже на сторінці. Ідеально для клубів, шкіл та подій.",
+			"bullets": {
+				"print": "Друк просто зі сторінки майданчика",
+				"share": "Чати, постери, спортивний інвентар",
+				"scan": "Скан — і ти вже на майданчику в один тап"
+			},
+			"cardTitle": "Парк Шевченка",
+			"cardSubtitle": "dvir.app/p/park-shevchenka",
+			"cardUrl": "https://dvir.app/p/park-shevchenka"
+		},
+		"howItWorks": {
+			"eyebrow": "Як це працює",
+			"title": "Три кроки. По одному майданчику.",
+			"steps": {
+				"find": {
+					"title": "Знайди майданчик",
+					"description": "Відкрий карту й подивись на спортмайданчики поруч з фото та деталями."
+				},
+				"rate": {
+					"title": "Оціни та залиш відгук",
+					"description": "Постав рейтинг, напиши коментар — допоможи іншим обрати краще."
+				},
+				"share": {
+					"title": "Поділись через QR",
+					"description": "Згенеруй QR-код, роздрукуй, поділись. Скан — і всі вже на місці."
+				}
+			}
+		},
+		"finalCta": {
+			"line1": "Обери майданчик.",
+			"line2": "Іди грати.",
+			"subtitle": "Відкрий карту. Знайди майданчик. Зроби його своїм.",
+			"button": "Відкрити карту"
+		},
+		"footer": {
+			"copyright": "© 2026 Dvir. Усі права захищені.",
+			"demo": "Демо",
+			"components": "Компоненти"
+		}
+	},
+	"login": {
+		"title": "З поверненням",
+		"description": "Увійдіть до свого акаунту",
+		"googleLogin": "Увійти через Google",
+		"noAccount": "Немає акаунту?",
+		"signupLink": "Зареєструватися",
+		"terms": "Продовжуючи, ви погоджуєтесь з",
+		"termsOfService": "Умовами використання",
+		"and": "та",
+		"privacyPolicy": "Політикою конфіденційності"
+	},
+	"signup": {
+		"title": "Створити акаунт",
+		"description": "Почніть з вашого Google акаунту",
+		"googleSignup": "Зареєструватися через Google",
+		"hasAccount": "Вже є акаунт?",
+		"loginLink": "Увійти",
+		"terms": "Продовжуючи, ви погоджуєтесь з",
+		"termsOfService": "Умовами використання",
+		"and": "та",
+		"privacyPolicy": "Політикою конфіденційності"
+	},
+	"demo": {
+		"title": "shadcn/ui Демо",
+		"description": "Усі компоненти shadcn/ui в одному місці."
+	},
+	"billing": {
+		"plans": {
+			"free": {
+				"name": "Безкоштовно",
+				"description": "Для особистих проєктів",
+				"features": [
+					"До 3 проєктів",
+					"Доступ до дашборду",
+					"Підтримка спільноти"
+				]
+			},
+			"pro": {
+				"name": "Pro",
+				"description": "Для професіоналів",
+				"features": [
+					"Необмежені проєкти",
+					"Доступ до дашборду",
+					"Експорт даних",
+					"Доступ до API",
+					"Пріоритетна підтримка"
+				]
+			}
+		},
+		"products": {
+			"export_pack": {
+				"name": "Стартовий пакет",
+				"features": ["Експорт даних", "5000 МБ сховища"]
+			}
+		},
+		"period": {
+			"month": "/місяць",
+			"year": "/рік"
+		}
+	},
+	"booking": {
+		"services": "Послуги",
+		"slotMode": "Режим слотів",
+		"modes": {
+			"fixed": "Фіксований",
+			"optimal": "Оптимальний",
+			"dynamic": "Динамічний"
+		},
+		"modeDescriptions": {
+			"fixed": "Рівномірна сітка від початку до кінця робочого дня",
+			"optimal": "Сітка + додаткові слоти одразу після бронювань",
+			"dynamic": "Після останнього бронювання слоти зсуваються"
+		},
+		"min": "хв",
+		"selectService": "Оберіть послугу зліва",
+		"selectServiceAndTime": "Оберіть послугу та час для створення запису",
+		"clickDashedZone": "Клікни на пунктирну зону в календарі",
+		"startTime": "Час початку",
+		"endTime": "Час кінця",
+		"duration": "Тривалість",
+		"price": "Вартість",
+		"status": "Статус",
+		"confirmBooking": "Підтвердити запис",
+		"bookingCreated": "Запис створено",
+		"bookingConfirmed": "Запис підтверджено",
+		"chooseAnotherTime": "Обрати інший час",
+		"cancel": "Скасувати",
+		"clientInfo": "Дані клієнта",
+		"clientName": "Ім'я клієнта *",
+		"enterName": "Введіть ім'я",
+		"phone": "Телефон",
+		"email": "Email",
+		"creating": "Створення...",
+		"saving": "Збереження...",
+		"loading": "Завантаження...",
+		"loadError": "Не вдалося завантажити дані",
+		"bookingFailed": "Не вдалося створити запис",
+		"cancelFailed": "Не вдалося скасувати",
+		"cancelledByStaff": "Скасовано майстром",
+		"cancelledByAdmin": "Скасовано адміністратором",
+		"defaultClient": "Клієнт",
+		"selectStaffToView": "Оберіть мастера для перегляду розкладу",
+		"bookingDetails": "Деталі запису",
+		"allStaff": "Всі",
+		"date": "Дата",
+		"clientName_label": "Ім'я клієнта",
+		"payment": "Оплата",
+		"confirmed": "Підтверджено",
+		"pending_payment": "Очікує оплати",
+		"completed": "Завершено",
+		"no_show": "Не з'явився",
+		"cancelled": "Скасовано",
+		"markCompleted": "Змінити на Завершено",
+		"markNoShow": "Змінити на Не з'явився",
+		"markCancelled": "Змінити на Скасовано",
+		"statusUpdateFailed": "Не вдалося оновити статус",
+		"close": "Закрити",
+		"validation": {
+			"nameMin": "Ім'я має містити щонайменше 2 символи",
+			"invalidEmail": "Невірний email",
+			"timeFormat": "Формат HH:MM",
+			"selectDate": "Оберіть дату"
+		},
+		"pickStaffFirst": "Оберіть співробітника",
+		"pickServiceTitle": "Оберіть послугу:",
+		"noServicesForSlot": "Немає доступних послуг на цей час",
+		"schedule": {
+			"title": "Робочий розклад",
+			"save": "Зберегти розклад",
+			"settings": "Налаштування розкладу",
+			"settingsDescription": "Змініть робочі години або додайте винятки на конкретні дати",
+			"override": "Виняток на дату",
+			"date": "Дата",
+			"workDay": "Робочий день",
+			"reason": "Причина",
+			"reasonPlaceholder": "Відпустка, хвороба...",
+			"addException": "Додати виняток"
+		}
+	},
+	"calendar": {
+		"day": "День",
+		"week": "Тиждень",
+		"month": "Місяць",
+		"servicesAndMode": "Послуги та режим",
+		"mySchedule": "Мій розклад"
+	},
+	"errors": {
+		"title": "Щось пішло не так",
+		"description": "Виникла несподівана помилка. Спробуйте ще раз.",
+		"tryAgain": "Спробувати ще раз",
+		"goHome": "На головну",
+		"notFoundTitle": "Сторінку не знайдено",
+		"notFoundDescription": "Сторінка, яку ви шукаєте, не існує або була переміщена.",
+		"api": {
+			"network": "Немає підключення до інтернету. Перевірте мережу та спробуйте ще раз.",
+			"timeout": "Час очікування запиту вичерпано. Спробуйте ще раз.",
+			"badRequest": "Невірний запит. Перевірте введені дані.",
+			"forbidden": "У вас немає дозволу на цю дію.",
+			"notFound": "Запитуваний ресурс не знайдено.",
+			"conflict": "Ця дія конфліктує з поточним станом.",
+			"tooManyRequests": "Забагато запитів. Зачекайте та спробуйте ще раз.",
+			"serverError": "Помилка сервера. Спробуйте пізніше.",
+			"serviceUnavailable": "Сервіс тимчасово недоступний. Спробуйте пізніше.",
+			"unknown": "Виникла несподівана помилка. Спробуйте ще раз."
+		}
+	},
+	"events": {
+		"today": "Сьогодні",
+		"tomorrow": "Завтра",
+		"yesterday": "Вчора",
+		"upcoming": "Майбутні",
+		"past": "Минулі",
+		"prev": "Назад",
+		"next": "Далі",
+		"totalCount": "Всього подій: {count}",
+		"emptyPastTitle": "Минулих подій немає",
+		"emptyPastSubtitle": "Тут зʼявляться події, які вже відбулися",
+		"rsvpGoing": "Я іду",
+		"rsvpYouAreGoing": "✓ Ти йдеш",
+		"rsvpFull": "Заповнено",
+		"createTitle": "Створити подію",
+		"createCta": "Створити подію",
+		"created": "Подію створено",
+		"edit": "Редагувати",
+		"cancel": "Скасувати подію",
+		"cancelConfirm": "Скасувати цю подію?",
+		"cancelConfirmDescription": "Усі, хто приєднався, побачать, що її скасовано.",
+		"save": "Зберегти",
+		"saving": "Збереження…",
+		"shareCopied": "Посилання скопійовано",
+		"back": "Назад",
+		"share": "Поділитися",
+		"menu": "Меню",
+		"fields": {
+			"sport": "Спорт",
+			"when": "Коли",
+			"duration": "Тривалість",
+			"limit": "Ліміт учасників",
+			"limitOff": "Без ліміту",
+			"description": "Опис",
+			"descriptionPlaceholder": "Напр.: «Стрітбол 3х3, потрібен м'яч»"
+		},
+		"day": {
+			"today": "Сьогодні",
+			"tomorrow": "Завтра"
+		},
+		"durationPreset": {
+			"30m": "30 хв",
+			"1h": "1 год",
+			"1h30m": "1 год 30 хв",
+			"2h": "2 год",
+			"3h": "3 год"
+		},
+		"startsIn": "почнеться через {value}",
+		"happening": "Триває · завершиться о {endTime}",
+		"finished": "Завершено",
+		"cancelled": "Скасовано організатором",
+		"creator": "Організатор",
+		"participants": "{count} ідуть",
+		"participantsLimited": "{count}/{max} ідуть",
+		"freeSpots": "Вільно {count} місць",
+		"emptyTitle": "Подій ще немає",
+		"emptySubtitle": "Стань першим, хто збере гру",
+		"loginToCreate": "Увійти, щоб створити",
+		"loginToJoin": "Увійти, щоб приєднатися",
+		"errors": {
+			"eventFull": "Подія заповнена",
+			"eventNotActive": "Подія не активна",
+			"eventTimeOutOfWindow": "Невірний час",
+			"timeInPast": "Час уже минув, обери пізніший",
+			"timeRequired": "Введіть час",
+			"timeInvalid": "Невірний формат часу",
+			"sportRequired": "Оберіть спорт"
+		}
+	},
+	"presence": {
+		"title": "{count, plural, =0 {Зараз тут нікого немає} one {# людина зараз на майданчику} few {# людини зараз на майданчику} other {# людей зараз на майданчику}}",
+		"peopleNow": "зараз на майданчику",
+		"emptyNow": "зараз тут пусто",
+		"liveSubtitle": "Можна підходити — гра жива",
+		"quietSubtitle": "Відмітся першим, побачать інші",
+		"checkInCta": "Я на майданчику",
+		"checkOutCta": "Я пішов",
+		"youArePresent": "✓ Ти тут до {time}",
+		"youArePresentNoTime": "✓ Ти тут",
+		"loginToCheckIn": "Увійти, щоб відмітитися"
+	},
+	"seo": {
+		"landing": {
+			"title": "Dvir — Кожен спорт. Кожен майданчик.",
+			"description": "Усі спортивні майданчики твого міста на одній живій карті. Фото, рейтинги, відгуки та QR-коди для кожного об'єкта — футбол, баскетбол, фітнес, скелелазіння, йога та інше. Безкоштовно."
+		},
+		"sportsMap": {
+			"title": "Карта спортивних майданчиків — Dvir",
+			"description": "Інтерактивна карта всіх спортивних майданчиків твого міста. Фільтруй за видом спорту, дивись фото, рейтинги та відгуки."
+		},
+		"login": {
+			"title": "Вхід — Dvir",
+			"description": "Увійди в Dvir, щоб зберігати улюблені майданчики, лишати відгуки та ділитися QR-кодами."
+		},
+		"signup": {
+			"title": "Реєстрація — Dvir",
+			"description": "Створи безкоштовний акаунт Dvir і знайди кожен спортивний майданчик у своєму місті."
+		},
+		"dashboard": {
+			"title": "Дашборд — Dvir",
+			"description": "Твій Dvir-дашборд."
+		},
+		"billing": {
+			"title": "Білінг — Dvir",
+			"description": "Керуй підпискою та планом Dvir."
+		},
+		"demo": {
+			"title": "Демо — Dvir",
+			"description": "Демонстрація можливостей та UI-компонентів Dvir."
+		},
+		"notFound": {
+			"title": "Сторінку не знайдено — Dvir",
+			"description": "Сторінка, яку ви шукаєте, не знайдена."
+		}
+	}
+}

@@ -1,0 +1,7352 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-15T10:17:48Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1356066202,
+      "lat": 48.5252263,
+      "lon": 35.0352209,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Flagman",
+        "name:uk": "Flagman",
+        "sport": "fitness",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1618134898,
+      "lat": 48.4608276,
+      "lon": 35.0548482,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Fit4You",
+        "name:uk": "Fit4You",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1908897145,
+      "lat": 48.4008513,
+      "lon": 35.0286529,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Дельта",
+        "name:uk": "Дельта"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2173320092,
+      "lat": 48.4297122,
+      "lon": 35.0652438,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Аполлон",
+        "name:uk": "Аполлон"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2336851525,
+      "lat": 48.4634487,
+      "lon": 35.0520516,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "La Skala",
+        "name:uk": "La Skala",
+        "sport": "climbing",
+        "website": "rockcenter.dp.ua"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2355956966,
+      "lat": 48.4199978,
+      "lon": 35.0587536,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Body Fit",
+        "name:uk": "Body Fit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2381821743,
+      "lat": 48.466243,
+      "lon": 35.0551231,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Анна",
+        "name:uk": "Анна",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2381821746,
+      "lat": 48.4665544,
+      "lon": 35.0550494,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Спарта",
+        "name:uk": "Спарта",
+        "sport": "poker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2400978538,
+      "lat": 48.4676972,
+      "lon": 35.0455084,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Fit4U",
+        "name:uk": "Fit4U",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2448741184,
+      "lat": 48.4618291,
+      "lon": 35.06118,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Шаховий клуб ім. Уріха",
+        "name:uk": "Шаховий клуб ім. Уріха",
+        "sport": "chess"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2656045230,
+      "lat": 48.4118138,
+      "lon": 35.0622339,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "gymnastics",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2894229443,
+      "lat": 48.5121783,
+      "lon": 35.0660653,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Майстер",
+        "name:ru": "Мастер",
+        "name:uk": "Майстер"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3126943889,
+      "lat": 48.5298979,
+      "lon": 35.0744458,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3348843118,
+      "lat": 48.529862,
+      "lon": 35.0299991,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Skala",
+        "name:uk": "Skala",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3798407668,
+      "lat": 48.4927113,
+      "lon": 35.1901687,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3877203202,
+      "lat": 48.4812731,
+      "lon": 35.0715939,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "N-dorfin",
+        "name:uk": "N-dorfin",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3883583595,
+      "lat": 48.4840626,
+      "lon": 35.0654818,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3894686090,
+      "lat": 48.4501927,
+      "lon": 35.0605488,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Феррум плюс",
+        "name:uk": "Феррум плюс",
+        "website": "http://ferrumclub.com.ua/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3995203301,
+      "lat": 48.4600016,
+      "lon": 35.051699,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Йога студія Оріон",
+        "name:uk": "Йога студія Оріон"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4008013297,
+      "lat": 48.4335272,
+      "lon": 35.0676223,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4548087446,
+      "lat": 48.4296594,
+      "lon": 35.0395648,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Lady fit",
+        "name:uk": "Lady fit",
+        "sport": "fitness",
+        "website": "ladyfit.dp.ua"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4786133221,
+      "lat": 48.534595,
+      "lon": 35.0900517,
+      "tags": {
+        "leisure": "pitch",
+        "name": "Памп-трек",
+        "name:ru": "Памп-трек",
+        "name:uk": "Памп-трек"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4865088291,
+      "lat": 48.4840615,
+      "lon": 35.0660429,
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4948551482,
+      "lat": 48.4777568,
+      "lon": 35.1376051,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "pinball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4991593024,
+      "lat": 48.4454334,
+      "lon": 35.0009886,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5018534583,
+      "lat": 48.3962199,
+      "lon": 35.0283908,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Jumper",
+        "name:uk": "Jumper"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5619038230,
+      "lat": 48.4463525,
+      "lon": 35.0014293,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5789695068,
+      "lat": 48.4819824,
+      "lon": 34.9176002,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Дитячо-юнацька спортивна школа № 4",
+        "name:ru": "Детско-юношеская спортивная школа № 4",
+        "name:uk": "Дитячо-юнацька спортивна школа № 4",
+        "phone": "+380 96 537 6333"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6303872944,
+      "lat": 48.4193433,
+      "lon": 35.0768003,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6380507843,
+      "lat": 48.4111963,
+      "lon": 35.0025592,
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6380507844,
+      "lat": 48.4105455,
+      "lon": 35.0024601,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7354476254,
+      "lat": 48.3778943,
+      "lon": 35.1321825,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7541967047,
+      "lat": 48.4337085,
+      "lon": 35.0380531,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7549740325,
+      "lat": 48.4377142,
+      "lon": 35.0218914,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8564077996,
+      "lat": 48.4652361,
+      "lon": 35.0743407,
+      "tags": {
+        "amenity": "boat_rental",
+        "canoe_rental": "yes",
+        "leisure": "sports_centre",
+        "name": "SUP STATION DNIPRO Острів",
+        "name:ru": "SUP STATION DNIPRO Остров",
+        "name:uk": "SUP STATION DNIPRO Острів",
+        "paddleboard_rental": "yes",
+        "sport": "canoe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8564157331,
+      "lat": 48.4891824,
+      "lon": 34.9145427,
+      "tags": {
+        "amenity": "boat_rental",
+        "canoe_rental": "yes",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "SUP STATION DNIPRO Плавні",
+        "name:ru": "SUP STATION DNIPRO Плавни",
+        "name:uk": "SUP STATION DNIPRO Плавні",
+        "paddleboard_rental": "yes",
+        "sport": "canoe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8564182711,
+      "lat": 48.4194444,
+      "lon": 35.0763889,
+      "tags": {
+        "amenity": "boat_rental",
+        "canoe_rental": "yes",
+        "leisure": "sports_centre",
+        "name": "SUP STATION DNIPRO Capetown Коса",
+        "name:uk": "SUP STATION DNIPRO Capetown Коса",
+        "paddleboard_rental": "yes",
+        "sport": "canoe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8573212974,
+      "lat": 48.4089633,
+      "lon": 34.9256699,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8651637969,
+      "lat": 48.4143516,
+      "lon": 35.0684854,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "workout"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8889911318,
+      "lat": 48.5293098,
+      "lon": 35.0185782,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8960007230,
+      "lat": 48.4062161,
+      "lon": 35.0046199,
+      "tags": {
+        "check_date": "2026-05-07",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9116881690,
+      "lat": 48.4297452,
+      "lon": 35.0640115,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9116881692,
+      "lat": 48.4275453,
+      "lon": 35.0622654,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9116881693,
+      "lat": 48.4308068,
+      "lon": 35.0636065,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9125005138,
+      "lat": 48.4003628,
+      "lon": 34.9283025,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9530971728,
+      "lat": 48.4065749,
+      "lon": 35.0090106,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9884490387,
+      "lat": 48.4887442,
+      "lon": 34.9149464,
+      "tags": {
+        "amenity": "boat_rental",
+        "canoe_rental": "yes",
+        "leisure": "sports_centre",
+        "name": "Kayak Club Dnipro Плавні",
+        "name:ru": "Kayak Club Dnipro Плавни",
+        "name:uk": "Kayak Club Dnipro Плавні",
+        "paddleboard_rental": "yes",
+        "sport": "canoe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10309337594,
+      "lat": 48.4343752,
+      "lon": 35.0062412,
+      "tags": {
+        "fitness_station": "horizontal_bar",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10578915699,
+      "lat": 48.5057978,
+      "lon": 35.0879012,
+      "tags": {
+        "blind": "limited",
+        "leisure": "fitness_station",
+        "sport": "fitness",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10832377106,
+      "lat": 48.4245747,
+      "lon": 35.0621527,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11023622409,
+      "lat": 48.4369452,
+      "lon": 35.072574,
+      "tags": {
+        "leisure": "sports_centre",
+        "mobile": "+380 50 133 5050",
+        "name": "SENTOSA Cable Park",
+        "sport": "wakeboarding",
+        "website": "https://www.sentosacablepark.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11149694862,
+      "lat": 48.4310318,
+      "lon": 35.0678871,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Схід",
+        "name:ru": "Восход",
+        "name:uk": "Схід"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11186628097,
+      "lat": 48.4111078,
+      "lon": 35.0618242,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11276645939,
+      "lat": 48.4051794,
+      "lon": 35.1336946,
+      "tags": {
+        "addr:housenumber": "11",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Фітнес Центр Придніпровський",
+        "name:uk": "Фітнес Центр Придніпровський",
+        "sport": "multi;fitness;yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12149795102,
+      "lat": 48.4745906,
+      "lon": 35.0287893,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Джайпур",
+        "name:uk": "Джайпур"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150179932,
+      "lat": 48.4575488,
+      "lon": 35.078813,
+      "tags": {
+        "addr:housenumber": "1-Т",
+        "amenity": "boat_rental",
+        "canoe_rental": "yes",
+        "leisure": "sports_centre",
+        "name": "SUP Station Dnipro Центр",
+        "name:uk": "SUP Station Dnipro Центр",
+        "paddleboard_rental": "yes",
+        "sport": "canoe",
+        "website": "https://supstation.ua"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12150179933,
+      "lat": 48.4577149,
+      "lon": 35.0787626,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Спортивна школа"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12182345268,
+      "lat": 48.4808526,
+      "lon": 34.9252036,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness",
+        "survey:date": "2024-09-17"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12563473218,
+      "lat": 48.4637912,
+      "lon": 34.9791654,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "sport": "table_tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26608621,
+      "lat": 48.4102532,
+      "lon": 35.0504611,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27713916,
+      "lat": 48.4346116,
+      "lon": 35.0374262,
+      "tags": {
+        "addr:housenumber": "24-А",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "Спорткомплекс ДНУ",
+        "name:uk": "Спорткомплекс ДНУ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27937890,
+      "lat": 48.459777,
+      "lon": 35.0744244,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 31013052,
+      "lat": 48.3911213,
+      "lon": 35.0209153,
+      "tags": {
+        "description": "Футбольное поле и 250 метровая беговая дорожка вокруг.",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer;running",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 31013053,
+      "lat": 48.3920462,
+      "lon": 35.020405,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 32200249,
+      "lat": 48.3951955,
+      "lon": 35.0353068,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 32200250,
+      "lat": 48.3939131,
+      "lon": 35.0376515,
+      "tags": {
+        "access": "permissive",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 32200497,
+      "lat": 48.3992109,
+      "lon": 35.0340691,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 32200498,
+      "lat": 48.3988782,
+      "lon": 35.0355593,
+      "tags": {
+        "area": "no",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "athletics",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 39351161,
+      "lat": 48.485585,
+      "lon": 34.9453144,
+      "tags": {
+        "barrier": "fence",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 60889017,
+      "lat": 48.4620205,
+      "lon": 35.0737163,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 61048118,
+      "lat": 48.5113243,
+      "lon": 35.0714753,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer",
+        "surface": "artificial_turf",
+        "was:building": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 61377226,
+      "lat": 48.4433206,
+      "lon": 35.0714213,
+      "tags": {
+        "addr:housenumber": "40-А",
+        "building": "yes",
+        "building:levels": "1",
+        "leisure": "sports_centre",
+        "name": "Спортивний комплекс ДХТУ",
+        "name:uk": "Спортивний комплекс ДХТУ",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 61377228,
+      "lat": 48.4526749,
+      "lon": 35.0759662,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "вулиця Набережна Перемоги",
+        "building": "yes",
+        "building:levels": "1",
+        "leisure": "sports_centre",
+        "name": "Спортивний комплекс ДДІФКС",
+        "name:uk": "Спортивний комплекс ДДІФКС",
+        "roof:shape": "round",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 61377254,
+      "lat": 48.4510635,
+      "lon": 35.0755889,
+      "tags": {
+        "addr:housenumber": "10",
+        "building": "yes",
+        "building:levels": "1",
+        "leisure": "sports_centre",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 61377259,
+      "lat": 48.430213,
+      "lon": 35.0680026,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 63374821,
+      "lat": 48.4816108,
+      "lon": 34.9085317,
+      "tags": {
+        "leisure": "track",
+        "lit": "yes",
+        "sport": "running",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 78803994,
+      "lat": 48.4800816,
+      "lon": 34.9049205,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "compacted"
+      }
+    },
+    {
+      "type": "node",
+      "id": 86700494,
+      "lat": 48.4347296,
+      "lon": 35.0334999,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 88385563,
+      "lat": 48.4364499,
+      "lon": 35.0477921,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "Кафедра фізичного виховання",
+        "name:uk": "Кафедра фізичного виховання",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 88385566,
+      "lat": 48.4348631,
+      "lon": 35.0490504,
+      "tags": {
+        "lanes": "3",
+        "leisure": "track",
+        "sport": "running",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 88385582,
+      "lat": 48.4348607,
+      "lon": 35.0490474,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 89129016,
+      "lat": 48.4684312,
+      "lon": 35.0093782,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 90224149,
+      "lat": 48.4588287,
+      "lon": 35.0330972,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 90683684,
+      "lat": 48.4439893,
+      "lon": 35.0561045,
+      "tags": {
+        "addr:housenumber": "17",
+        "building": "yes",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 90898192,
+      "lat": 48.44155,
+      "lon": 35.0486964,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 91876893,
+      "lat": 48.3994798,
+      "lon": 35.1297886,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 91933737,
+      "lat": 48.4147022,
+      "lon": 35.1282094,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 92495434,
+      "lat": 48.4155615,
+      "lon": 35.0664517,
+      "tags": {
+        "addr:housenumber": "9",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "Штурм",
+        "name:uk": "Штурм",
+        "sport": "multi",
+        "website": "https://shturm.dp.ua/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 95993264,
+      "lat": 48.4592425,
+      "lon": 35.0734913,
+      "tags": {
+        "leisure": "track",
+        "name": "Славутич",
+        "name:uk": "Славутич",
+        "sport": "athletics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 95993265,
+      "lat": 48.4592689,
+      "lon": 35.073424,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 96120534,
+      "lat": 48.4784987,
+      "lon": 34.9050389,
+      "tags": {
+        "area": "no",
+        "leisure": "track",
+        "sport": "running",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 96120540,
+      "lat": 48.4784011,
+      "lon": 34.9051762,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 98503334,
+      "lat": 48.5117417,
+      "lon": 35.0490575,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 98503336,
+      "lat": 48.5117698,
+      "lon": 35.0490389,
+      "tags": {
+        "leisure": "stadium",
+        "name": "стадіон ім. Петра Лайко",
+        "name:uk": "стадіон ім. Петра Лайко"
+      }
+    },
+    {
+      "type": "node",
+      "id": 104296776,
+      "lat": 48.5252931,
+      "lon": 35.0262783,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 104644527,
+      "lat": 48.5313097,
+      "lon": 35.0233607,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 104787057,
+      "lat": 48.3872346,
+      "lon": 35.0363118,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 104865282,
+      "lat": 48.4372887,
+      "lon": 35.0529222,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 108362152,
+      "lat": 48.4890822,
+      "lon": 35.1332455,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 108362153,
+      "lat": 48.4903044,
+      "lon": 35.1332308,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 108362154,
+      "lat": 48.4896925,
+      "lon": 35.1332381,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 108362155,
+      "lat": 48.4896902,
+      "lon": 35.1332103,
+      "tags": {
+        "leisure": "stadium",
+        "name": "Локомотив",
+        "name:uk": "Локомотив"
+      }
+    },
+    {
+      "type": "node",
+      "id": 108362156,
+      "lat": 48.4896981,
+      "lon": 35.1332399,
+      "tags": {
+        "leisure": "track"
+      }
+    },
+    {
+      "type": "node",
+      "id": 108891665,
+      "lat": 48.5301899,
+      "lon": 35.0256557,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 108891668,
+      "lat": 48.5273377,
+      "lon": 35.0147213,
+      "tags": {
+        "barrier": "fence",
+        "height": "4",
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 111573567,
+      "lat": 48.5105839,
+      "lon": 35.0908676,
+      "tags": {
+        "leisure": "stadium"
+      }
+    },
+    {
+      "type": "node",
+      "id": 111595886,
+      "lat": 48.5067508,
+      "lon": 35.0874448,
+      "tags": {
+        "leisure": "stadium"
+      }
+    },
+    {
+      "type": "node",
+      "id": 112180317,
+      "lat": 48.4862544,
+      "lon": 34.9450399,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 112710782,
+      "lat": 48.493393,
+      "lon": 34.931691,
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 112710833,
+      "lat": 48.4902149,
+      "lon": 34.9355924,
+      "tags": {
+        "barrier": "fence",
+        "leisure": "sports_centre",
+        "name": "Гараж",
+        "name:en": "Garage",
+        "name:ru": "Гараж",
+        "name:uk": "Гараж",
+        "sport": "karting"
+      }
+    },
+    {
+      "type": "node",
+      "id": 113284254,
+      "lat": 48.5268901,
+      "lon": 35.0386577,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 113284258,
+      "lat": 48.5240211,
+      "lon": 35.0425501,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 115099046,
+      "lat": 48.3798348,
+      "lon": 34.9945626,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 115099047,
+      "lat": 48.3798681,
+      "lon": 34.9935657,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 115200535,
+      "lat": 48.4037837,
+      "lon": 35.0030667,
+      "tags": {
+        "addr:housenumber": "9",
+        "building": "yes",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 118563867,
+      "lat": 48.4346022,
+      "lon": 35.0026814,
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Метеор",
+        "name:ru": "Метеор",
+        "name:uk": "Метеор"
+      }
+    },
+    {
+      "type": "node",
+      "id": 118592279,
+      "lat": 48.4267028,
+      "lon": 35.0094725,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "sport_1": "basketball",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 118744890,
+      "lat": 48.4260646,
+      "lon": 35.00231,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 118929211,
+      "lat": 48.424521,
+      "lon": 35.0075402,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "multi",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119502570,
+      "lat": 48.5314303,
+      "lon": 35.0520985,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119505653,
+      "lat": 48.5228108,
+      "lon": 35.0314603,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119505654,
+      "lat": 48.5225447,
+      "lon": 35.0307145,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119505661,
+      "lat": 48.5226777,
+      "lon": 35.0310873,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119762046,
+      "lat": 48.4279333,
+      "lon": 35.0084553,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119762047,
+      "lat": 48.4234652,
+      "lon": 35.0061694,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119995933,
+      "lat": 48.4048307,
+      "lon": 35.127761,
+      "tags": {
+        "barrier": "fence",
+        "height": "4",
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 119996944,
+      "lat": 48.3994536,
+      "lon": 35.1285271,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 120853785,
+      "lat": 48.5188907,
+      "lon": 35.0295703,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 120853786,
+      "lat": 48.51865,
+      "lon": 35.0288759,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 120853787,
+      "lat": 48.5187703,
+      "lon": 35.0292231,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 121747801,
+      "lat": 48.5241814,
+      "lon": 35.0455647,
+      "tags": {
+        "addr:housenumber": "2",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "Янтарний",
+        "name:uk": "Янтарний",
+        "phone": "+380 56 767 2707"
+      }
+    },
+    {
+      "type": "node",
+      "id": 122000668,
+      "lat": 48.5270992,
+      "lon": 35.043599,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 123620518,
+      "lat": 48.5142355,
+      "lon": 35.0815532,
+      "tags": {
+        "leisure": "track"
+      }
+    },
+    {
+      "type": "node",
+      "id": 123762403,
+      "lat": 48.4365284,
+      "lon": 35.0029626,
+      "tags": {
+        "alt_name": "Бассейн",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Палац водних видів спорту",
+        "name:ru": "Дворец водных видов спорта",
+        "name:uk": "Палац водних видів спорту",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 124024174,
+      "lat": 48.4674568,
+      "lon": 35.0260651,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 127212846,
+      "lat": 48.4292016,
+      "lon": 34.9990181,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer;basketball",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 132661970,
+      "lat": 48.5656143,
+      "lon": 35.0974413,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 132661985,
+      "lat": 48.5656295,
+      "lon": 35.0974594,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 136912752,
+      "lat": 48.4485453,
+      "lon": 34.9690392,
+      "tags": {
+        "leisure": "track",
+        "sport": "athletics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 137876954,
+      "lat": 48.4519989,
+      "lon": 34.9857094,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 140225547,
+      "lat": 48.4078362,
+      "lon": 35.137716,
+      "tags": {
+        "access": "private",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "roof:colour": "#626e64"
+      }
+    },
+    {
+      "type": "node",
+      "id": 143979021,
+      "lat": 48.4063256,
+      "lon": 35.0003725,
+      "tags": {
+        "addr:housenumber": "118-Д",
+        "addr:postcode": "49033",
+        "addr:street": "проспект Богдана Хмельницького",
+        "building": "residential",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "БК \"Шинник\"",
+        "name:uk": "БК \"Шинник\"",
+        "phone": "+380 563 70 5333",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 143988928,
+      "lat": 48.4042831,
+      "lon": 35.0033327,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 144068644,
+      "lat": 48.4361811,
+      "lon": 35.0035273,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 148243758,
+      "lat": 48.4329928,
+      "lon": 35.0191493,
+      "tags": {
+        "leisure": "stadium",
+        "name": "Трудові Резерви",
+        "name:ru": "Трудовые Резервы",
+        "name:uk": "Трудові Резерви",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 150560465,
+      "lat": 48.4179485,
+      "lon": 35.0481416,
+      "tags": {
+        "building": "yes",
+        "leisure": "pitch",
+        "sport": "ice_hockey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 150560481,
+      "lat": 48.418643,
+      "lon": 35.0471976,
+      "tags": {
+        "building": "roof",
+        "leisure": "pitch",
+        "sport": "ice_skating"
+      }
+    },
+    {
+      "type": "node",
+      "id": 151360622,
+      "lat": 48.4575228,
+      "lon": 35.0693454,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Соборна площа",
+        "building": "yes",
+        "building:levels": "6",
+        "leisure": "sports_centre",
+        "name": "Цунами",
+        "name:uk": "Цунами",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 152213698,
+      "lat": 48.430476,
+      "lon": 35.0327784,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 152343945,
+      "lat": 48.4466743,
+      "lon": 35.0545648,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 152343947,
+      "lat": 48.4460676,
+      "lon": 35.0535471,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 152347483,
+      "lat": 48.4477758,
+      "lon": 35.0787672,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 152347488,
+      "lat": 48.4479729,
+      "lon": 35.0781823,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 154361247,
+      "lat": 48.3957901,
+      "lon": 35.0519727,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 154361250,
+      "lat": 48.3952856,
+      "lon": 35.0514139,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 154547315,
+      "lat": 48.4817999,
+      "lon": 34.8520027,
+      "tags": {
+        "area": "no",
+        "leisure": "track"
+      }
+    },
+    {
+      "type": "node",
+      "id": 154547323,
+      "lat": 48.4818003,
+      "lon": 34.851985,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 155470676,
+      "lat": 48.397103,
+      "lon": 35.0529112,
+      "tags": {
+        "leisure": "track"
+      }
+    },
+    {
+      "type": "node",
+      "id": 155470678,
+      "lat": 48.3957669,
+      "lon": 35.0522235,
+      "tags": {
+        "leisure": "track",
+        "sport": "running",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 155470680,
+      "lat": 48.3971068,
+      "lon": 35.0528884,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "multi",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 157511598,
+      "lat": 48.4622011,
+      "lon": 35.0449747,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 159221066,
+      "lat": 48.4465138,
+      "lon": 35.059567,
+      "tags": {
+        "leisure": "stadium",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 164399952,
+      "lat": 48.3683032,
+      "lon": 35.0773158,
+      "tags": {
+        "leisure": "stadium"
+      }
+    },
+    {
+      "type": "node",
+      "id": 165120436,
+      "lat": 48.5136006,
+      "lon": 35.2404785,
+      "tags": {
+        "leisure": "stadium",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 166392608,
+      "lat": 48.4123092,
+      "lon": 35.0725728,
+      "tags": {
+        "condition": "closed",
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 170593132,
+      "lat": 48.4180249,
+      "lon": 35.0487404,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Лавина",
+        "name:uk": "Лавина"
+      }
+    },
+    {
+      "type": "node",
+      "id": 172067964,
+      "lat": 48.5143973,
+      "lon": 35.2329367,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 174004545,
+      "lat": 48.3645497,
+      "lon": 35.1465798,
+      "tags": {
+        "access": "unknown",
+        "addr:housenumber": "7",
+        "addr:place": "СТ \"Росинка\"",
+        "leisure": "pitch",
+        "name": "Abandoned Court",
+        "sport": "soccer;basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 186548288,
+      "lat": 48.5316533,
+      "lon": 35.078462,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 186574200,
+      "lat": 48.5326166,
+      "lon": 35.0767817,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 188281230,
+      "lat": 48.5312878,
+      "lon": 35.074179,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 189200919,
+      "lat": 48.4203476,
+      "lon": 35.0005623,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 189200921,
+      "lat": 48.4209137,
+      "lon": 35.0005623,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 191144179,
+      "lat": 48.5129833,
+      "lon": 35.2383151,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 191412730,
+      "lat": 48.4319321,
+      "lon": 35.0688351,
+      "tags": {
+        "addr:housenumber": "51-Б",
+        "leisure": "pitch",
+        "sport": "shooting"
+      }
+    },
+    {
+      "type": "node",
+      "id": 191412732,
+      "lat": 48.4301558,
+      "lon": 35.0685512,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 191694904,
+      "lat": 48.4297581,
+      "lon": 34.9817914,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 192671972,
+      "lat": 48.4055226,
+      "lon": 35.0081565,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 193277630,
+      "lat": 48.4442009,
+      "lon": 35.0206254,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 197434282,
+      "lat": 48.4858325,
+      "lon": 35.0660986,
+      "tags": {
+        "leisure": "pitch",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 197672045,
+      "lat": 48.484309,
+      "lon": 35.0688288,
+      "tags": {
+        "leisure": "track"
+      }
+    },
+    {
+      "type": "node",
+      "id": 197672047,
+      "lat": 48.4842526,
+      "lon": 35.0687896,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 197714858,
+      "lat": 48.5027171,
+      "lon": 35.0689771,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 197835925,
+      "lat": 48.5141662,
+      "lon": 35.0815598,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 198142174,
+      "lat": 48.5076761,
+      "lon": 35.0672289,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer;volleyball;running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 200419840,
+      "lat": 48.447866,
+      "lon": 35.079279,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 200462875,
+      "lat": 48.4446314,
+      "lon": 35.0765308,
+      "tags": {
+        "leisure": "stadium",
+        "name": "Водно-лижний стадіон",
+        "name:ru": "Водно-лыжный стадион",
+        "name:uk": "Водно-лижний стадіон",
+        "sport": "water_ski"
+      }
+    },
+    {
+      "type": "node",
+      "id": 201010002,
+      "lat": 48.4816634,
+      "lon": 34.9090622,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "volleyball",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 201010004,
+      "lat": 48.4790178,
+      "lon": 34.9101928,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 201010006,
+      "lat": 48.4816378,
+      "lon": 34.9085133,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 201010009,
+      "lat": 48.4782149,
+      "lon": 34.9058442,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "gymnastics;athletics",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 201010011,
+      "lat": 48.4783797,
+      "lon": 34.9065622,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 201094748,
+      "lat": 48.5115967,
+      "lon": 34.9886066,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 202232233,
+      "lat": 48.5112553,
+      "lon": 34.9845505,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 202291206,
+      "lat": 48.5056836,
+      "lon": 34.9904327,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 202334017,
+      "lat": 48.4891131,
+      "lon": 34.9443871,
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Льодова Арена",
+        "name:en": "Ice Arena",
+        "name:ru": "Ледовая Арена",
+        "name:uk": "Льодова Арена",
+        "sport": "ice_skating"
+      }
+    },
+    {
+      "type": "node",
+      "id": 202339964,
+      "lat": 48.5265071,
+      "lon": 34.9670137,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 202652322,
+      "lat": 48.483744,
+      "lon": 34.9279394,
+      "tags": {
+        "leisure": "stadium"
+      }
+    },
+    {
+      "type": "node",
+      "id": 204131046,
+      "lat": 48.4842465,
+      "lon": 34.9317874,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 205597918,
+      "lat": 48.4390141,
+      "lon": 35.0671076,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 205981296,
+      "lat": 48.39888,
+      "lon": 35.0355573,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 207174812,
+      "lat": 48.4296535,
+      "lon": 35.0633716,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 207185509,
+      "lat": 48.428043,
+      "lon": 35.0037837,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 207456742,
+      "lat": 48.4805088,
+      "lon": 35.0193224,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 220611270,
+      "lat": 48.4793168,
+      "lon": 35.1593953,
+      "tags": {
+        "barrier": "fence",
+        "description": "Закрито.",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 222961981,
+      "lat": 48.4642739,
+      "lon": 35.0564544,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 225120466,
+      "lat": 48.4319042,
+      "lon": 35.0185882,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 225120467,
+      "lat": 48.4333458,
+      "lon": 35.017865,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 225120468,
+      "lat": 48.4331069,
+      "lon": 35.0179046,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 225120469,
+      "lat": 48.4328096,
+      "lon": 35.0180342,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 225120470,
+      "lat": 48.4329722,
+      "lon": 35.0193039,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 226445467,
+      "lat": 48.502139,
+      "lon": 35.0689452,
+      "tags": {
+        "addr:housenumber": "12б",
+        "addr:street": "вулиця Євгена Чикаленка",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Olimpia+",
+        "name:uk": "Olimpia+",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 226592054,
+      "lat": 48.4070342,
+      "lon": 35.0704825,
+      "tags": {
+        "barrier": "fence",
+        "height": "4",
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 226661886,
+      "lat": 48.418238,
+      "lon": 35.0656352,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 226723502,
+      "lat": 48.4248161,
+      "lon": 35.0062087,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 226862679,
+      "lat": 48.421191,
+      "lon": 35.0598355,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 227234309,
+      "lat": 48.4149392,
+      "lon": 35.0605732,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "compacted"
+      }
+    },
+    {
+      "type": "node",
+      "id": 229021665,
+      "lat": 48.4203404,
+      "lon": 35.0603403,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 229055945,
+      "lat": 48.462411,
+      "lon": 35.0570003,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 231868307,
+      "lat": 48.4467078,
+      "lon": 35.0545016,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 231908719,
+      "lat": 48.46458,
+      "lon": 35.0766151,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 232071089,
+      "lat": 48.4182523,
+      "lon": 35.0652039,
+      "tags": {
+        "description": "Спортивная площадка школы № 66",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "grass_paver"
+      }
+    },
+    {
+      "type": "node",
+      "id": 232189659,
+      "lat": 48.463966,
+      "lon": 35.0562429,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 233915987,
+      "lat": 48.4544248,
+      "lon": 35.0271879,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 234132802,
+      "lat": 48.4585168,
+      "lon": 35.0307969,
+      "tags": {
+        "barrier": "fence",
+        "height": "3",
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 234132822,
+      "lat": 48.4592598,
+      "lon": 35.0334741,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 234310328,
+      "lat": 48.4404526,
+      "lon": 35.0140916,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 243620996,
+      "lat": 48.4284448,
+      "lon": 35.0008332,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 248117647,
+      "lat": 48.3799187,
+      "lon": 34.9680669,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 251618718,
+      "lat": 48.3869056,
+      "lon": 34.9743026,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 251638687,
+      "lat": 48.3979264,
+      "lon": 34.9792756,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 251638691,
+      "lat": 48.3976698,
+      "lon": 34.9796419,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 255687072,
+      "lat": 48.5139461,
+      "lon": 35.0567461,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 256424495,
+      "lat": 48.44107,
+      "lon": 35.0866825,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 257446950,
+      "lat": 48.5113311,
+      "lon": 35.0718248,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Orange",
+        "name:uk": "Orange",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 257446952,
+      "lat": 48.5114472,
+      "lon": 35.0720589,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 257747672,
+      "lat": 48.4582676,
+      "lon": 35.0508632,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 260599794,
+      "lat": 48.4695485,
+      "lon": 35.0417526,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 262402653,
+      "lat": 48.4356746,
+      "lon": 35.005533,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 271285472,
+      "lat": 48.5417393,
+      "lon": 34.9460602,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 271583565,
+      "lat": 48.5487535,
+      "lon": 34.9231211,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "equestrian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 271583824,
+      "lat": 48.5485303,
+      "lon": 34.9225701,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "equestrian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 272987451,
+      "lat": 48.4878842,
+      "lon": 35.0689876,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 276614142,
+      "lat": 48.4623439,
+      "lon": 35.0741802,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 279796764,
+      "lat": 48.5751218,
+      "lon": 35.1081753,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 279809002,
+      "lat": 48.5708249,
+      "lon": 35.111966,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 283845762,
+      "lat": 48.4784302,
+      "lon": 35.075014,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 285115925,
+      "lat": 48.5072013,
+      "lon": 34.9901189,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 285392985,
+      "lat": 48.5045624,
+      "lon": 34.9878218,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "athletics",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 288827092,
+      "lat": 48.4796661,
+      "lon": 34.9084862,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 290196713,
+      "lat": 48.4103589,
+      "lon": 35.0504079,
+      "tags": {
+        "leisure": "track",
+        "lit": "no",
+        "sport": "athletics",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 292289750,
+      "lat": 48.513621,
+      "lon": 35.2405172,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 292809875,
+      "lat": 48.4267254,
+      "lon": 35.0618059,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 295220968,
+      "lat": 48.5065458,
+      "lon": 35.0916129,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 295220971,
+      "lat": 48.507836,
+      "lon": 35.0881664,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 295220972,
+      "lat": 48.5045944,
+      "lon": 35.0893356,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "volleyball, football"
+      }
+    },
+    {
+      "type": "node",
+      "id": 312215936,
+      "lat": 48.4100744,
+      "lon": 35.0060327,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 312215938,
+      "lat": 48.4085082,
+      "lon": 35.0061369,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 312215939,
+      "lat": 48.409324,
+      "lon": 35.0060204,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 316149563,
+      "lat": 48.516656,
+      "lon": 35.0494195,
+      "tags": {
+        "barrier": "fence",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 318232950,
+      "lat": 48.4234383,
+      "lon": 35.0790909,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "beachvolleyball",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319328055,
+      "lat": 48.4218581,
+      "lon": 35.1313546,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319328056,
+      "lat": 48.4263554,
+      "lon": 35.1318891,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319328057,
+      "lat": 48.4246479,
+      "lon": 35.1288616,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "handball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319328058,
+      "lat": 48.4249379,
+      "lon": 35.1316449,
+      "tags": {
+        "barrier": "fence",
+        "height": "4",
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319328059,
+      "lat": 48.4267631,
+      "lon": 35.1312969,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 329366959,
+      "lat": 48.4005984,
+      "lon": 35.129385,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 329762592,
+      "lat": 48.3997684,
+      "lon": 35.1366459,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 332030432,
+      "lat": 48.5310066,
+      "lon": 35.1042798,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 336408285,
+      "lat": 48.3958754,
+      "lon": 34.9833215,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 338062781,
+      "lat": 48.4773057,
+      "lon": 34.9101231,
+      "tags": {
+        "leisure": "track"
+      }
+    },
+    {
+      "type": "node",
+      "id": 338062783,
+      "lat": 48.4770316,
+      "lon": 34.90993,
+      "tags": {
+        "area": "no",
+        "leisure": "track"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339318527,
+      "lat": 48.426603,
+      "lon": 35.0099463,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339318528,
+      "lat": 48.4268038,
+      "lon": 35.0089957,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "gymnastics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339373262,
+      "lat": 48.4266949,
+      "lon": 35.0094422,
+      "tags": {
+        "leisure": "track",
+        "lit": "no",
+        "sport": "running",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339448930,
+      "lat": 48.5106937,
+      "lon": 35.0488561,
+      "tags": {
+        "addr:housenumber": "18-А",
+        "building": "yes",
+        "building:levels": "4",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339773254,
+      "lat": 48.4247048,
+      "lon": 35.0061816,
+      "tags": {
+        "leisure": "pitch",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340577424,
+      "lat": 48.4434986,
+      "lon": 35.0573749,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 340742525,
+      "lat": 48.502719,
+      "lon": 35.0689868,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 342271731,
+      "lat": 48.4119093,
+      "lon": 35.1329675,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 342364192,
+      "lat": 48.5389531,
+      "lon": 34.887816,
+      "tags": {
+        "access": "private",
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 342538119,
+      "lat": 48.554988,
+      "lon": 35.0387977,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 342627029,
+      "lat": 48.3541382,
+      "lon": 35.1690426,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 342729666,
+      "lat": 48.405366,
+      "lon": 35.0550413,
+      "tags": {
+        "leisure": "track"
+      }
+    },
+    {
+      "type": "node",
+      "id": 342729669,
+      "lat": 48.405088,
+      "lon": 35.0549193,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 344110722,
+      "lat": 48.4865168,
+      "lon": 34.9441678,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "fitness",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345632867,
+      "lat": 48.5632463,
+      "lon": 34.9974207,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "equestrian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345745923,
+      "lat": 48.5029254,
+      "lon": 34.9802392,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "equestrian",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345766892,
+      "lat": 48.4335854,
+      "lon": 35.0062478,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 346072432,
+      "lat": 48.4467658,
+      "lon": 35.0230234,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 346343146,
+      "lat": 48.4362019,
+      "lon": 35.0154031,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 346371015,
+      "lat": 48.4388606,
+      "lon": 35.0176369,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 346568275,
+      "lat": 48.4435414,
+      "lon": 35.0161614,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 346965011,
+      "lat": 48.4345357,
+      "lon": 35.0070989,
+      "tags": {
+        "leisure": "pitch",
+        "name": "Майданчик для метання ядра",
+        "name:uk": "Майданчик для метання ядра",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 350911938,
+      "lat": 48.4458288,
+      "lon": 35.0243573,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 352325733,
+      "lat": 48.4244458,
+      "lon": 35.1122479,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 352340939,
+      "lat": 48.4346768,
+      "lon": 35.0164683,
+      "tags": {
+        "colour": "green",
+        "lanes": "1",
+        "leisure": "track",
+        "name": "паркова",
+        "name:uk": "паркова",
+        "route": "bicycle",
+        "sport": "cycling",
+        "surface": "gravel",
+        "width": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 352340940,
+      "lat": 48.4346074,
+      "lon": 35.0169319,
+      "tags": {
+        "colour": "green",
+        "lanes": "1",
+        "leisure": "track",
+        "name": "паркова",
+        "name:uk": "паркова",
+        "route": "bicycle",
+        "sport": "cycling",
+        "surface": "gravel",
+        "width": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 353546944,
+      "lat": 48.4966335,
+      "lon": 34.9258298,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "handball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 361757371,
+      "lat": 48.4078665,
+      "lon": 35.0741414,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 362567266,
+      "lat": 48.4073108,
+      "lon": 35.0700666,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 363350794,
+      "lat": 48.4218572,
+      "lon": 35.1313543,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365470801,
+      "lat": 48.484547,
+      "lon": 34.9342453,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 371729222,
+      "lat": 48.4445594,
+      "lon": 35.0744427,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 372262489,
+      "lat": 48.4133637,
+      "lon": 35.1255657,
+      "tags": {
+        "leisure": "pitch",
+        "name": "Площадка Кличко",
+        "name:uk": "Площадка Кличко"
+      }
+    },
+    {
+      "type": "node",
+      "id": 372264661,
+      "lat": 48.4101551,
+      "lon": 35.1346058,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376499914,
+      "lat": 48.4197632,
+      "lon": 35.0005953,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376891792,
+      "lat": 48.5095782,
+      "lon": 35.2312424,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 377216089,
+      "lat": 48.5032499,
+      "lon": 35.185783,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 377501756,
+      "lat": 48.4800168,
+      "lon": 35.1701297,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 377555371,
+      "lat": 48.4829603,
+      "lon": 35.193827,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 377678989,
+      "lat": 48.4763982,
+      "lon": 35.2009616,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 377803881,
+      "lat": 48.4666849,
+      "lon": 35.2044918,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 377803882,
+      "lat": 48.4671213,
+      "lon": 35.2039324,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 378001007,
+      "lat": 48.460232,
+      "lon": 35.2184369,
+      "tags": {
+        "leisure": "pitch",
+        "name": "Аллюр",
+        "name:uk": "Аллюр",
+        "sport": "equestrian",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 380895971,
+      "lat": 48.4805042,
+      "lon": 35.0790358,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 383355738,
+      "lat": 48.4723112,
+      "lon": 35.1524019,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 384429513,
+      "lat": 48.4809374,
+      "lon": 35.0722263,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 387744454,
+      "lat": 48.5786046,
+      "lon": 35.1185065,
+      "tags": {
+        "addr:housenumber": "135",
+        "addr:postcode": "52001",
+        "addr:street": "Шосейна вулиця",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "OnFit",
+        "name:uk": "OnFit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 396937426,
+      "lat": 48.4454733,
+      "lon": 35.0492733,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 397373499,
+      "lat": 48.4387841,
+      "lon": 35.0672526,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 400859087,
+      "lat": 48.5265979,
+      "lon": 34.9930457,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 401027134,
+      "lat": 48.5547986,
+      "lon": 34.9241916,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 401027135,
+      "lat": 48.554852,
+      "lon": 34.9252854,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 401036490,
+      "lat": 48.5633083,
+      "lon": 34.889611,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 418924237,
+      "lat": 48.4099146,
+      "lon": 35.0483524,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419658314,
+      "lat": 48.439163,
+      "lon": 35.0009707,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419659128,
+      "lat": 48.4441936,
+      "lon": 35.0041168,
+      "tags": {
+        "leisure": "pitch",
+        "name": "СДЮШОР №3",
+        "name:uk": "СДЮШОР №3",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 426075260,
+      "lat": 48.4926236,
+      "lon": 35.0606929,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 426905303,
+      "lat": 48.4613955,
+      "lon": 35.0291169,
+      "tags": {
+        "description": "Спортивная площадка",
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 434362470,
+      "lat": 48.4831097,
+      "lon": 34.9164136,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 436545828,
+      "lat": 48.4832684,
+      "lon": 34.9481779,
+      "tags": {
+        "leisure": "pitch",
+        "name": "Пейнтбол \"Агресор\"",
+        "name:uk": "Пейнтбол \"Агресор\"",
+        "sport": "paintball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 440640626,
+      "lat": 48.4389178,
+      "lon": 35.0688253,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 451003322,
+      "lat": 48.4496689,
+      "lon": 35.0242665,
+      "tags": {
+        "addr:housenumber": "20-А",
+        "addr:postcode": "49069",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Human",
+        "name:uk": "Human",
+        "website": "https://human.dp.ua/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 451003325,
+      "lat": 48.4495824,
+      "lon": 35.0248929,
+      "tags": {
+        "leisure": "pitch",
+        "name": "Human",
+        "name:uk": "Human"
+      }
+    },
+    {
+      "type": "node",
+      "id": 458763660,
+      "lat": 48.4057261,
+      "lon": 35.0123686,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 458766296,
+      "lat": 48.4079107,
+      "lon": 35.0101858,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 458875505,
+      "lat": 48.438445,
+      "lon": 35.0171233,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 458875506,
+      "lat": 48.4384996,
+      "lon": 35.0168962,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 460560325,
+      "lat": 48.4107731,
+      "lon": 35.0688478,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 462031464,
+      "lat": 48.4525031,
+      "lon": 35.0043682,
+      "tags": {
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 467458223,
+      "lat": 48.4253343,
+      "lon": 35.125226,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 475146405,
+      "lat": 48.4886118,
+      "lon": 34.942987,
+      "tags": {
+        "construction": "yes",
+        "leisure": "stadium",
+        "name": "Стадіон пляжних видів спорту",
+        "name:ru": "Стадион пляжных видов спорта",
+        "name:uk": "Стадіон пляжних видів спорту",
+        "sport": "beachvolleyball",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 493690647,
+      "lat": 48.5124006,
+      "lon": 35.0807943,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 493690648,
+      "lat": 48.5123999,
+      "lon": 35.0812425,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 494771634,
+      "lat": 48.5474225,
+      "lon": 34.8538919,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 496186740,
+      "lat": 48.4142504,
+      "lon": 35.127984,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 500167392,
+      "lat": 48.5445773,
+      "lon": 35.0829905,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 503196795,
+      "lat": 48.528447,
+      "lon": 35.0276163,
+      "tags": {
+        "border": "fence",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "beachvolleyball",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 505947180,
+      "lat": 48.4236322,
+      "lon": 35.1284944,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 505947181,
+      "lat": 48.4239077,
+      "lon": 35.1288769,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 512096537,
+      "lat": 48.4049365,
+      "lon": 35.1389318,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 524141032,
+      "lat": 48.462428,
+      "lon": 35.0795646,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534761402,
+      "lat": 48.4242289,
+      "lon": 35.0216577,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 542030727,
+      "lat": 48.4643676,
+      "lon": 35.0706952,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 542222799,
+      "lat": 48.4709021,
+      "lon": 35.0305759,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 542226118,
+      "lat": 48.4714659,
+      "lon": 35.0260312,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 542382649,
+      "lat": 48.4302831,
+      "lon": 35.0050207,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 544810553,
+      "lat": 48.4541543,
+      "lon": 34.9569363,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 570752530,
+      "lat": 48.3982789,
+      "lon": 35.0353181,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "gymnastics",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 570752534,
+      "lat": 48.3992248,
+      "lon": 35.0355196,
+      "tags": {
+        "area": "no",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "athletics",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 570752538,
+      "lat": 48.3984616,
+      "lon": 35.0354906,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "gymnastics",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 570752539,
+      "lat": 48.398437,
+      "lon": 35.0360194,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 570752540,
+      "lat": 48.3986058,
+      "lon": 35.0361286,
+      "tags": {
+        "area": "no",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "athletics",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 590495374,
+      "lat": 48.4728442,
+      "lon": 35.0344123,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 590650994,
+      "lat": 48.4313075,
+      "lon": 35.0659512,
+      "tags": {
+        "fitness_station": "fitness_station",
+        "leisure": "fitness_station",
+        "opening_hours": "24/7",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 596202398,
+      "lat": 48.449301,
+      "lon": 35.0246421,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 596202714,
+      "lat": 48.4499711,
+      "lon": 35.0229791,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 596203264,
+      "lat": 48.4502656,
+      "lon": 35.0224403,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 596203265,
+      "lat": 48.450221,
+      "lon": 35.0236689,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 596203266,
+      "lat": 48.4501621,
+      "lon": 35.0239086,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 596203267,
+      "lat": 48.4504163,
+      "lon": 35.022956,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 601391178,
+      "lat": 48.4257817,
+      "lon": 35.1307993,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 604306095,
+      "lat": 48.4649309,
+      "lon": 35.0762658,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 605597093,
+      "lat": 48.4666643,
+      "lon": 34.9777663,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 607971773,
+      "lat": 48.3729039,
+      "lon": 34.9939723,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 611815424,
+      "lat": 48.5814692,
+      "lon": 35.2273661,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "beachvolleyball",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 611888080,
+      "lat": 48.4599763,
+      "lon": 34.921668,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "sport_1": "basketball",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "node",
+      "id": 611888081,
+      "lat": 48.46024,
+      "lon": 34.9213393,
+      "tags": {
+        "fitness_station": "yes",
+        "leisure": "fitness_station",
+        "opening_hours": "24/7",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 611895650,
+      "lat": 48.4759411,
+      "lon": 35.0171275,
+      "tags": {
+        "fitness_station": "fitness_station",
+        "leisure": "fitness_station",
+        "opening_hours": "24/7",
+        "sport": "fitness",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 612001512,
+      "lat": 48.4359387,
+      "lon": 35.0707358,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 612102541,
+      "lat": 48.4027761,
+      "lon": 35.1333835,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 614104963,
+      "lat": 48.4851121,
+      "lon": 35.0560002,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 615207801,
+      "lat": 48.3916141,
+      "lon": 35.0205592,
+      "tags": {
+        "description": "Школьные турники и брусья для всех желающих.",
+        "leisure": "fitness_station",
+        "opening_hours": "24/7",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 619584364,
+      "lat": 48.4150576,
+      "lon": 35.1292224,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 630033893,
+      "lat": 48.3741199,
+      "lon": 34.9678033,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 634144274,
+      "lat": 48.5324007,
+      "lon": 35.0679444,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 637166683,
+      "lat": 48.4767583,
+      "lon": 34.9099533,
+      "tags": {
+        "barrier": "fence",
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 637166684,
+      "lat": 48.4768335,
+      "lon": 34.9102752,
+      "tags": {
+        "barrier": "fence",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 641863123,
+      "lat": 48.459462,
+      "lon": 35.005663,
+      "tags": {
+        "leisure": "pitch",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 681320085,
+      "lat": 48.4115225,
+      "lon": 34.9997548,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 681343375,
+      "lat": 48.4104064,
+      "lon": 35.0003641,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 683656781,
+      "lat": 48.5235693,
+      "lon": 35.0339932,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 688880441,
+      "lat": 48.4477736,
+      "lon": 35.0785129,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 690950957,
+      "lat": 48.5269672,
+      "lon": 35.0136799,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692262581,
+      "lat": 48.4831892,
+      "lon": 34.9147238,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 692271638,
+      "lat": 48.4796084,
+      "lon": 34.9081323,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "multi",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 701910817,
+      "lat": 48.4957846,
+      "lon": 35.145843,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 701960571,
+      "lat": 48.4924515,
+      "lon": 35.1507434,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 703205259,
+      "lat": 48.5564601,
+      "lon": 35.109994,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 711032190,
+      "lat": 48.477047,
+      "lon": 35.198109,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 711033498,
+      "lat": 48.4761884,
+      "lon": 35.2012284,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 734633038,
+      "lat": 48.4974968,
+      "lon": 34.8670211,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 734633039,
+      "lat": 48.497436,
+      "lon": 34.8672871,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "handball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 737942804,
+      "lat": 48.4838078,
+      "lon": 35.1932164,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 738970261,
+      "lat": 48.5055471,
+      "lon": 35.2187475,
+      "tags": {
+        "access": "private",
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 749921029,
+      "lat": 48.4114998,
+      "lon": 35.133121,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 760598191,
+      "lat": 48.4875223,
+      "lon": 34.946624,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 760598192,
+      "lat": 48.4871136,
+      "lon": 34.9469027,
+      "tags": {
+        "barrier": "fence",
+        "leisure": "pitch",
+        "sport": "skateboard",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 770420920,
+      "lat": 48.5268456,
+      "lon": 35.0143258,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 771818194,
+      "lat": 48.4697711,
+      "lon": 34.9999942,
+      "tags": {
+        "leisure": "stadium"
+      }
+    },
+    {
+      "type": "node",
+      "id": 773002832,
+      "lat": 48.4003733,
+      "lon": 35.1359687,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 787143040,
+      "lat": 48.4543888,
+      "lon": 35.0616773,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 796653141,
+      "lat": 48.4039171,
+      "lon": 34.9070855,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 796653148,
+      "lat": 48.4103756,
+      "lon": 34.9197811,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 796653149,
+      "lat": 48.4099215,
+      "lon": 34.9197145,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 796653159,
+      "lat": 48.4098353,
+      "lon": 34.9052763,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 797054493,
+      "lat": 48.4163345,
+      "lon": 35.0395628,
+      "tags": {
+        "highway": "path",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "cycling",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 797701705,
+      "lat": 48.5147801,
+      "lon": 35.2333105,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 806381333,
+      "lat": 48.4833,
+      "lon": 35.0660347,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "athletics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 806494057,
+      "lat": 48.4341517,
+      "lon": 35.0391238,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 807336341,
+      "lat": 48.4381963,
+      "lon": 35.0219052,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 815947291,
+      "lat": 48.4802944,
+      "lon": 34.9152871,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "acrylic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 815947292,
+      "lat": 48.4803723,
+      "lon": 34.9157678,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "acrylic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 817829614,
+      "lat": 48.4738961,
+      "lon": 35.0210486,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 818389695,
+      "lat": 48.5208174,
+      "lon": 34.8500732,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 818389704,
+      "lat": 48.5199107,
+      "lon": 34.8575854,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 824366579,
+      "lat": 48.5377193,
+      "lon": 35.0797782,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:postcode": "52005",
+        "addr:street": "Спортивна вулиця",
+        "building": "yes",
+        "building:levels": "3",
+        "leisure": "sports_centre",
+        "name": "Спортивний комплекс \"Слобожанський\"",
+        "name:uk": "Спортивний комплекс \"Слобожанський\"",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "sport": "basketball;volleyball;fitness;futsal;climbing;table_tennis;swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836537660,
+      "lat": 48.4556199,
+      "lon": 35.0287498,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 836537661,
+      "lat": 48.45565,
+      "lon": 35.0283355,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 856373630,
+      "lat": 48.5873479,
+      "lon": 35.091592,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 863862888,
+      "lat": 48.4277583,
+      "lon": 35.0084488,
+      "tags": {
+        "fitness_station": "stairs",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 865485739,
+      "lat": 48.5857357,
+      "lon": 35.2486038,
+      "tags": {
+        "access": "private",
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 871637433,
+      "lat": 48.4543314,
+      "lon": 35.0019024,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 880645363,
+      "lat": 48.5758165,
+      "lon": 35.2459014,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 880998398,
+      "lat": 48.5840014,
+      "lon": 35.242255,
+      "tags": {
+        "access": "private",
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 880998400,
+      "lat": 48.5831474,
+      "lon": 35.2412116,
+      "tags": {
+        "access": "private",
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 904158361,
+      "lat": 48.4155454,
+      "lon": 35.0344308,
+      "tags": {
+        "highway": "path",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "cycling",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 908911778,
+      "lat": 48.5988192,
+      "lon": 35.0185535,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 917328406,
+      "lat": 48.3725552,
+      "lon": 35.1764145,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 931381339,
+      "lat": 48.4218221,
+      "lon": 35.0124024,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 940364586,
+      "lat": 48.4893402,
+      "lon": 35.1344226,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 942372320,
+      "lat": 48.5475666,
+      "lon": 34.8529853,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 942566822,
+      "lat": 48.5782366,
+      "lon": 34.8745572,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 948274402,
+      "lat": 48.4516511,
+      "lon": 35.0681134,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 956585115,
+      "lat": 48.4116494,
+      "lon": 35.0290066,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 964282957,
+      "lat": 48.4246343,
+      "lon": 35.0791267,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "beachvolleyball",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 977864060,
+      "lat": 48.4297583,
+      "lon": 35.0684142,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 978207913,
+      "lat": 48.4031344,
+      "lon": 35.0268267,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 986232243,
+      "lat": 48.4294512,
+      "lon": 35.0639773,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 986232251,
+      "lat": 48.4296837,
+      "lon": 35.0630781,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 986232252,
+      "lat": 48.4294978,
+      "lon": 35.0635238,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 988030160,
+      "lat": 48.4612551,
+      "lon": 35.0364196,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 988409394,
+      "lat": 48.5661265,
+      "lon": 35.0788608,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 989378672,
+      "lat": 48.5296175,
+      "lon": 34.8825092,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 990563585,
+      "lat": 48.4136376,
+      "lon": 35.1302411,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 991655588,
+      "lat": 48.4806292,
+      "lon": 34.9151835,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 991655589,
+      "lat": 48.4806141,
+      "lon": 34.9142989,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "acrylic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 996888937,
+      "lat": 48.4915857,
+      "lon": 35.0694396,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 997462300,
+      "lat": 48.4394821,
+      "lon": 34.9463035,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1000289277,
+      "lat": 48.4138198,
+      "lon": 35.0333325,
+      "tags": {
+        "colour": "red",
+        "highway": "path",
+        "lanes": "1",
+        "leisure": "track",
+        "lit": "no",
+        "name": "Червона",
+        "name:uk": "Червона",
+        "route": "mtb",
+        "sport": "cycling",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1000348071,
+      "lat": 48.4789902,
+      "lon": 34.9199606,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1001154076,
+      "lat": 48.4464706,
+      "lon": 35.0012009,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1003263764,
+      "lat": 48.4619313,
+      "lon": 34.9122251,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1004169510,
+      "lat": 48.4644354,
+      "lon": 34.9800639,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1005562896,
+      "lat": 48.457191,
+      "lon": 34.9595097,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1005562897,
+      "lat": 48.4558795,
+      "lon": 34.968772,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1005814297,
+      "lat": 48.4115196,
+      "lon": 35.1327932,
+      "tags": {
+        "leisure": "track",
+        "sport": "running",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1005818149,
+      "lat": 48.4136359,
+      "lon": 35.1302414,
+      "tags": {
+        "leisure": "track",
+        "sport": "running",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1009034338,
+      "lat": 48.5119303,
+      "lon": 35.0692994,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1010048727,
+      "lat": 48.4810754,
+      "lon": 34.9456221,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1027034695,
+      "lat": 48.4072558,
+      "lon": 35.0664999,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1027130940,
+      "lat": 48.486119,
+      "lon": 35.1289883,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1027130941,
+      "lat": 48.487972,
+      "lon": 35.1368226,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1028496476,
+      "lat": 48.5252522,
+      "lon": 35.0556081,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1028999671,
+      "lat": 48.5349979,
+      "lon": 35.0838682,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1029002450,
+      "lat": 48.5315373,
+      "lon": 35.0791047,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1031396107,
+      "lat": 48.4002466,
+      "lon": 35.1315719,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1052320314,
+      "lat": 48.455658,
+      "lon": 34.9862762,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1056489840,
+      "lat": 48.4942845,
+      "lon": 35.1909124,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1057024384,
+      "lat": 48.4585862,
+      "lon": 35.0829792,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1057094196,
+      "lat": 48.4161987,
+      "lon": 35.1290123,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1061099072,
+      "lat": 48.398556,
+      "lon": 35.094634,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1062250074,
+      "lat": 48.49262,
+      "lon": 35.0606915,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1062251125,
+      "lat": 48.4925736,
+      "lon": 35.0534981,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1062366027,
+      "lat": 48.5010878,
+      "lon": 35.0461808,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1064942736,
+      "lat": 48.3944234,
+      "lon": 35.0523501,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1069399232,
+      "lat": 48.4765623,
+      "lon": 35.201465,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1072957982,
+      "lat": 48.4668725,
+      "lon": 35.2044128,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1072957983,
+      "lat": 48.466896,
+      "lon": 35.2041955,
+      "tags": {
+        "blind": "no",
+        "fitness_station": "fitness_station",
+        "leisure": "fitness_station",
+        "sport": "fitness",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1092671149,
+      "lat": 48.4445893,
+      "lon": 35.0745334,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "Fit Haus",
+        "name:uk": "Fit Haus",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093666556,
+      "lat": 48.4360492,
+      "lon": 35.0478012,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093758106,
+      "lat": 48.4151217,
+      "lon": 35.0374021,
+      "tags": {
+        "highway": "path",
+        "leisure": "track",
+        "surface": "dirt",
+        "trail_visibility": "bad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093776948,
+      "lat": 48.4132105,
+      "lon": 35.0341119,
+      "tags": {
+        "highway": "path",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "cycling",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093776949,
+      "lat": 48.4138922,
+      "lon": 35.0360752,
+      "tags": {
+        "highway": "path",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "cycling",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093776956,
+      "lat": 48.4148498,
+      "lon": 35.0380815,
+      "tags": {
+        "highway": "path",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "cycling",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093776957,
+      "lat": 48.4153508,
+      "lon": 35.0385305,
+      "tags": {
+        "highway": "path",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "cycling",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093776966,
+      "lat": 48.4006858,
+      "lon": 35.0573459,
+      "tags": {
+        "leisure": "track",
+        "sport": "cycling"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1097466208,
+      "lat": 48.4806693,
+      "lon": 34.9094588,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1097749944,
+      "lat": 48.3822745,
+      "lon": 35.1346662,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1101665961,
+      "lat": 48.4846401,
+      "lon": 34.9290044,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1101866862,
+      "lat": 48.5087381,
+      "lon": 35.0895211,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "skateboard",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1104104232,
+      "lat": 48.4613818,
+      "lon": 35.0807686,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1104461654,
+      "lat": 48.4451571,
+      "lon": 35.0767395,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1104461655,
+      "lat": 48.4442035,
+      "lon": 35.0764295,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "handball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1145079844,
+      "lat": 48.4851094,
+      "lon": 34.9457535,
+      "tags": {
+        "leisure": "pitch",
+        "opening_hours": "24/7",
+        "sport": "gymnastics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1147271337,
+      "lat": 48.479575,
+      "lon": 34.9165379,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1147271376,
+      "lat": 48.4795846,
+      "lon": 34.9187386,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1147271382,
+      "lat": 48.4871005,
+      "lon": 34.9464074,
+      "tags": {
+        "leisure": "track",
+        "sport": "cycling"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1147271389,
+      "lat": 48.4793021,
+      "lon": 34.9166574,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1149072329,
+      "lat": 48.4263401,
+      "lon": 35.0255623,
+      "tags": {
+        "building": "yes",
+        "leisure": "stadium"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1153910161,
+      "lat": 48.4406839,
+      "lon": 35.0691143,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1156637433,
+      "lat": 48.4579345,
+      "lon": 34.9370865,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1156645394,
+      "lat": 48.4576204,
+      "lon": 34.9374967,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1158541326,
+      "lat": 48.4033663,
+      "lon": 35.0050258,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1159632232,
+      "lat": 48.4940772,
+      "lon": 35.0536369,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "soccer",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1160254085,
+      "lat": 48.4556805,
+      "lon": 35.0654382,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1160684547,
+      "lat": 48.4135086,
+      "lon": 35.1259366,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1161364858,
+      "lat": 48.40487,
+      "lon": 35.1276505,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1161501982,
+      "lat": 48.4066969,
+      "lon": 35.1297824,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1161721549,
+      "lat": 48.4005773,
+      "lon": 35.1293857,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1162791693,
+      "lat": 48.4115194,
+      "lon": 35.1304683,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1162923174,
+      "lat": 48.4288265,
+      "lon": 35.1255758,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1164422232,
+      "lat": 48.4355892,
+      "lon": 35.0041587,
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1164854450,
+      "lat": 48.4602333,
+      "lon": 35.0625637,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1165180972,
+      "lat": 48.4007895,
+      "lon": 35.1358692,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167191134,
+      "lat": 48.4862876,
+      "lon": 34.9443897,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167191135,
+      "lat": 48.4861664,
+      "lon": 34.944503,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167191136,
+      "lat": 48.4860524,
+      "lon": 34.9446222,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167191793,
+      "lat": 48.4864778,
+      "lon": 34.9442013,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "table_tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1167191794,
+      "lat": 48.4864962,
+      "lon": 34.9442338,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "table_tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1168268844,
+      "lat": 48.5144369,
+      "lon": 35.081632,
+      "tags": {
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "tartan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1172963430,
+      "lat": 48.4759813,
+      "lon": 35.1130671,
+      "tags": {
+        "barrier": "fence",
+        "leisure": "stadium",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1176243359,
+      "lat": 48.5117405,
+      "lon": 35.0490734,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1176243361,
+      "lat": 48.512776,
+      "lon": 35.0490382,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1176312257,
+      "lat": 48.5312361,
+      "lon": 35.0233395,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1176624939,
+      "lat": 48.4451142,
+      "lon": 35.060374,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1178174313,
+      "lat": 48.4736416,
+      "lon": 34.9195491,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1178613893,
+      "lat": 48.3991855,
+      "lon": 35.1281855,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1178613894,
+      "lat": 48.4017013,
+      "lon": 35.1273995,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1178613895,
+      "lat": 48.4016335,
+      "lon": 35.1274249,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1180221375,
+      "lat": 48.4161051,
+      "lon": 35.1290633,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1180744876,
+      "lat": 48.4140736,
+      "lon": 35.0325021,
+      "tags": {
+        "colour": "black",
+        "highway": "path",
+        "lanes": "1",
+        "leisure": "track",
+        "mtb:scale": "2",
+        "name": "Чорна",
+        "name:uk": "Чорна",
+        "osmc:symbol": "black:black:DB:white",
+        "route": "mtb",
+        "sport": "cycling",
+        "surface": "ground",
+        "width": "0.5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184066643,
+      "lat": 48.4072978,
+      "lon": 34.9487443,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184066644,
+      "lat": 48.4070771,
+      "lon": 34.9492511,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184066645,
+      "lat": 48.4074774,
+      "lon": 34.949736,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184066646,
+      "lat": 48.4070806,
+      "lon": 34.9492522,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184183100,
+      "lat": 48.4725727,
+      "lon": 35.1525917,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184278988,
+      "lat": 48.434169,
+      "lon": 35.0391299,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184326904,
+      "lat": 48.5272808,
+      "lon": 35.0140957,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184327579,
+      "lat": 48.5268394,
+      "lon": 35.0143206,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1186082494,
+      "lat": 48.4614039,
+      "lon": 35.0691532,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "chess"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1188232694,
+      "lat": 48.4134911,
+      "lon": 35.0323658,
+      "tags": {
+        "highway": "track",
+        "leisure": "track",
+        "route": "mtb",
+        "sport": "cycling",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1188232695,
+      "lat": 48.4137786,
+      "lon": 35.0323551,
+      "tags": {
+        "highway": "track",
+        "lanes": "1",
+        "leisure": "track",
+        "name": "Fiolet",
+        "route": "mtb",
+        "sport": "cycling",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1188232696,
+      "lat": 48.4147033,
+      "lon": 35.0335802,
+      "tags": {
+        "highway": "track",
+        "lanes": "1",
+        "leisure": "track",
+        "lit": "no",
+        "sport": "cycling",
+        "surface": "ground",
+        "width": "0.5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1188478829,
+      "lat": 48.4699178,
+      "lon": 34.9115404,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1189169901,
+      "lat": 48.4732885,
+      "lon": 34.9080244,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1189402064,
+      "lat": 48.4249343,
+      "lon": 35.0293621,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1189402065,
+      "lat": 48.4235834,
+      "lon": 35.0263561,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1194334135,
+      "lat": 48.4641363,
+      "lon": 35.0112226,
+      "tags": {
+        "addr:street": "Робоча вулиця",
+        "leisure": "stadium",
+        "name": "Стадіон імені Баталюка",
+        "name:ru": "Стадион имени Баталюка",
+        "name:uk": "Стадіон імені Баталюка"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1194334136,
+      "lat": 48.463611,
+      "lon": 35.0109597,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1194334137,
+      "lat": 48.4639424,
+      "lon": 35.0110719,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1200640930,
+      "lat": 48.4189409,
+      "lon": 35.1298423,
+      "tags": {
+        "fitness_station": "stairs",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1200943290,
+      "lat": 48.4152642,
+      "lon": 35.1298619,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1200943291,
+      "lat": 48.4152513,
+      "lon": 35.129293,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202379883,
+      "lat": 48.4502433,
+      "lon": 35.0635365,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1202647157,
+      "lat": 48.475851,
+      "lon": 34.8622851,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1203464241,
+      "lat": 48.3996824,
+      "lon": 35.1350817,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "beachvolleyball",
+        "surface": "sand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1206477855,
+      "lat": 48.4647694,
+      "lon": 35.0664764,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1207278095,
+      "lat": 48.4097211,
+      "lon": 35.0647185,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1207950120,
+      "lat": 48.4647674,
+      "lon": 35.0352077,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1208705199,
+      "lat": 48.4861053,
+      "lon": 35.0648755,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1208705200,
+      "lat": 48.4859505,
+      "lon": 35.0647387,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1209307121,
+      "lat": 48.4655154,
+      "lon": 35.060873,
+      "tags": {
+        "fitness_station": "stairs",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1211206642,
+      "lat": 48.4713598,
+      "lon": 35.0264234,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1213933692,
+      "lat": 48.4914373,
+      "lon": 35.0334638,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1213933693,
+      "lat": 48.4915762,
+      "lon": 35.0335336,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1218883359,
+      "lat": 48.5127976,
+      "lon": 35.0816748,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1218883360,
+      "lat": 48.5125752,
+      "lon": 35.0824147,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1236129161,
+      "lat": 48.525296,
+      "lon": 35.0384337,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1236131534,
+      "lat": 48.524057,
+      "lon": 35.0432063,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1237534916,
+      "lat": 48.4101646,
+      "lon": 35.0631647,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1237541463,
+      "lat": 48.40702,
+      "lon": 35.0698777,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1237541464,
+      "lat": 48.4070547,
+      "lon": 35.0704079,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1238142894,
+      "lat": 48.4511424,
+      "lon": 35.075268,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1238844510,
+      "lat": 48.5182157,
+      "lon": 34.9510267,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1239689532,
+      "lat": 48.5180805,
+      "lon": 34.9623299,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1240553473,
+      "lat": 48.517931,
+      "lon": 35.0494183,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1240587137,
+      "lat": 48.5192158,
+      "lon": 35.0522706,
+      "tags": {
+        "barrier": "fence",
+        "height": "4",
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1240587138,
+      "lat": 48.5192003,
+      "lon": 35.0523325,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241004278,
+      "lat": 48.5128021,
+      "lon": 35.0816712,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241004279,
+      "lat": 48.5129654,
+      "lon": 35.0808875,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241472808,
+      "lat": 48.4517819,
+      "lon": 35.0041954,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241474684,
+      "lat": 48.4684266,
+      "lon": 35.0093846,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241903048,
+      "lat": 48.4335401,
+      "lon": 35.0178891,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241903049,
+      "lat": 48.4337289,
+      "lon": 35.0179775,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241903050,
+      "lat": 48.4329645,
+      "lon": 35.0193113,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241903051,
+      "lat": 48.4315622,
+      "lon": 35.0188627,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241903052,
+      "lat": 48.4316671,
+      "lon": 35.0185141,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241950531,
+      "lat": 48.4577259,
+      "lon": 35.0233012,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241950532,
+      "lat": 48.4570387,
+      "lon": 35.0225287,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1241956274,
+      "lat": 48.4569284,
+      "lon": 35.0228231,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1242373725,
+      "lat": 48.4485103,
+      "lon": 34.9690191,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1242597120,
+      "lat": 48.4613957,
+      "lon": 35.0291173,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1242670361,
+      "lat": 48.4572091,
+      "lon": 34.9599159,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1247333552,
+      "lat": 48.4596555,
+      "lon": 34.931562,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1247333553,
+      "lat": 48.4599991,
+      "lon": 34.9315754,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1247333554,
+      "lat": 48.4595635,
+      "lon": 34.9315582,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1248804895,
+      "lat": 48.4259766,
+      "lon": 35.0022635,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1262335885,
+      "lat": 48.4184611,
+      "lon": 35.0653414,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1263086235,
+      "lat": 48.4049027,
+      "lon": 35.0543929,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1263086242,
+      "lat": 48.404957,
+      "lon": 35.0536941,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1263086243,
+      "lat": 48.4062621,
+      "lon": 35.0527411,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1268833317,
+      "lat": 48.4079019,
+      "lon": 35.0102097,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1268833320,
+      "lat": 48.4077575,
+      "lon": 35.011016,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1284471610,
+      "lat": 48.4183418,
+      "lon": 35.0405919,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1296939458,
+      "lat": 48.4238384,
+      "lon": 35.1118446,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1296939459,
+      "lat": 48.4237297,
+      "lon": 35.1120245,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1304615459,
+      "lat": 48.4684438,
+      "lon": 34.9725643,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1312649311,
+      "lat": 48.4590334,
+      "lon": 35.0732553,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1321683240,
+      "lat": 48.4739415,
+      "lon": 35.0377396,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1323006328,
+      "lat": 48.4218284,
+      "lon": 35.0139392,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1323129530,
+      "lat": 48.4362036,
+      "lon": 35.0494315,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1324343455,
+      "lat": 48.4734244,
+      "lon": 34.8871564,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1327050433,
+      "lat": 48.4757096,
+      "lon": 34.9853836,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1328469695,
+      "lat": 48.4130301,
+      "lon": 35.1337683,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1330217800,
+      "lat": 48.4589632,
+      "lon": 35.0336384,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332570900,
+      "lat": 48.4615347,
+      "lon": 35.0321936,
+      "tags": {
+        "fitness_station": "stairs",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332577482,
+      "lat": 48.4591728,
+      "lon": 35.0342713,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332602004,
+      "lat": 48.4604024,
+      "lon": 35.0323743,
+      "tags": {
+        "leisure": "pitch",
+        "lit": "yes",
+        "name": "Футбольний клуб «Дніпро»",
+        "sport": "soccer",
+        "surface": "grass",
+        "wikidata": "Q175687",
+        "wikipedia": "uk:Дніпро (футбольний клуб, Дніпро)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332614680,
+      "lat": 48.4610735,
+      "lon": 35.0337129,
+      "tags": {
+        "fitness_station": "stairs",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332614682,
+      "lat": 48.4602641,
+      "lon": 35.0309867,
+      "tags": {
+        "fitness_station": "stairs",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1332614683,
+      "lat": 48.458899,
+      "lon": 35.0325168,
+      "tags": {
+        "fitness_station": "stairs",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1333157154,
+      "lat": 48.4639245,
+      "lon": 35.0453667,
+      "tags": {
+        "fitness_station": "stairs",
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1335009052,
+      "lat": 48.4603624,
+      "lon": 35.0580461,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1337111313,
+      "lat": 48.4276283,
+      "lon": 35.0405738,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1337111314,
+      "lat": 48.4280676,
+      "lon": 35.0405234,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1337112042,
+      "lat": 48.4280873,
+      "lon": 35.0405209,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1339461122,
+      "lat": 48.5069701,
+      "lon": 35.0730626,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1341019197,
+      "lat": 48.5048781,
+      "lon": 35.0759855,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1341019198,
+      "lat": 48.5046028,
+      "lon": 35.0759004,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1343518330,
+      "lat": 48.4814961,
+      "lon": 34.8522577,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1353406236,
+      "lat": 48.4336525,
+      "lon": 35.0608253,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1354206767,
+      "lat": 48.4047039,
+      "lon": 35.0192899,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1357028685,
+      "lat": 48.4626701,
+      "lon": 34.9736508,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "soccer",
+        "surface": "artificial_turf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1357557567,
+      "lat": 48.4642932,
+      "lon": 34.9805064,
+      "tags": {
+        "access": "yes",
+        "description": "Без сітки",
+        "leisure": "pitch",
+        "sport": "volleyball",
+        "surface": "clay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1357557568,
+      "lat": 48.4642827,
+      "lon": 34.9796815,
+      "tags": {
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "clay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1357557569,
+      "lat": 48.4641223,
+      "lon": 34.9793926,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "sport": "pickleball;badminton;tennis",
+        "surface": "clay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1357557570,
+      "lat": 48.4644092,
+      "lon": 34.9796975,
+      "tags": {
+        "leisure": "track",
+        "sport": "running",
+        "surface": "clay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1357557575,
+      "lat": 48.4624059,
+      "lon": 34.9740945,
+      "tags": {
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1369543962,
+      "lat": 48.4636391,
+      "lon": 34.8877758,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1369543963,
+      "lat": 48.463372,
+      "lon": 34.8878363,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1379183117,
+      "lat": 48.4843612,
+      "lon": 34.8582916,
+      "tags": {
+        "access": "yes",
+        "leisure": "pitch",
+        "sport": "soccer",
+        "surface": "grass"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1409239352,
+      "lat": 48.4619844,
+      "lon": 34.9125169,
+      "tags": {
+        "leisure": "fitness_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1409239355,
+      "lat": 48.4619056,
+      "lon": 34.9114823,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1409607728,
+      "lat": 48.4377281,
+      "lon": 35.0233,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1413004121,
+      "lat": 48.4563422,
+      "lon": 34.8962844,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1414078104,
+      "lat": 48.4553522,
+      "lon": 34.8849533,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1414078105,
+      "lat": 48.4555013,
+      "lon": 34.8843739,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "baseball;volleyball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1415622829,
+      "lat": 48.4468187,
+      "lon": 34.9868936,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1416535521,
+      "lat": 48.5501843,
+      "lon": 34.9215815,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "equestrian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1416535522,
+      "lat": 48.5493025,
+      "lon": 34.9220108,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "equestrian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1416693652,
+      "lat": 48.5115951,
+      "lon": 34.988602,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436281528,
+      "lat": 48.395842,
+      "lon": 35.0516487,
+      "tags": {
+        "leisure": "track",
+        "sport": "running",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436375387,
+      "lat": 48.4100197,
+      "lon": 35.1341285,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436376544,
+      "lat": 48.4115053,
+      "lon": 35.1326416,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "volleyball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436376743,
+      "lat": 48.4112849,
+      "lon": 35.132721,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436656252,
+      "lat": 48.5031735,
+      "lon": 35.1853409,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1442994733,
+      "lat": 48.5162244,
+      "lon": 35.0891198,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1443691101,
+      "lat": 48.5145052,
+      "lon": 35.085786,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1444465036,
+      "lat": 48.5156679,
+      "lon": 35.0798696,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1444478714,
+      "lat": 48.5164298,
+      "lon": 35.0601799,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1445288869,
+      "lat": 48.4941332,
+      "lon": 35.0522519,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1445290917,
+      "lat": 48.5153032,
+      "lon": 35.0329098,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1445290918,
+      "lat": 48.515212,
+      "lon": 35.0330778,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1445291302,
+      "lat": 48.5152796,
+      "lon": 35.0329616,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1445294587,
+      "lat": 48.5296936,
+      "lon": 35.0477987,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1450331404,
+      "lat": 48.4520101,
+      "lon": 34.985709,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1450345524,
+      "lat": 48.412391,
+      "lon": 35.0664815,
+      "tags": {
+        "blind": "limited",
+        "fitness_station": "yes",
+        "leisure": "fitness_station",
+        "sport": "fitness",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1450716286,
+      "lat": 48.3673632,
+      "lon": 35.085214,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1450716287,
+      "lat": 48.3673755,
+      "lon": 35.0852081,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1452545581,
+      "lat": 48.4859515,
+      "lon": 35.1297682,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1459034264,
+      "lat": 48.3958736,
+      "lon": 34.98332,
+      "tags": {
+        "leisure": "track",
+        "sport": "running"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1493081085,
+      "lat": 48.4062778,
+      "lon": 35.049168,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1496031423,
+      "lat": 48.4071024,
+      "lon": 35.0295708,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1496182331,
+      "lat": 48.3907208,
+      "lon": 35.024079,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1505361064,
+      "lat": 48.4217522,
+      "lon": 35.10861,
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1509580293,
+      "lat": 48.5081374,
+      "lon": 35.0681609,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1510440098,
+      "lat": 48.5149129,
+      "lon": 35.0835822,
+      "tags": {
+        "leisure": "pitch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1513617363,
+      "lat": 48.5548708,
+      "lon": 34.9248047,
+      "tags": {
+        "leisure": "fitness_station",
+        "sport": "fitness"
+      }
+    }
+  ]
+}

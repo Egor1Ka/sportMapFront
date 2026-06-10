@@ -1,0 +1,104 @@
+<h2>Какая концепция у страницы?</h2>
+<p class="subtitle">Один из четырёх способов "обыграть" — определит и название, и компоновку</p>
+
+<div class="cards">
+  <div class="card" data-choice="live-now" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:linear-gradient(135deg,#0ea5e9,#6366f1);color:white;padding:24px;display:flex;flex-direction:column;justify-content:space-between;min-height:220px">
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="width:10px;height:10px;border-radius:50%;background:#ef4444;box-shadow:0 0 0 4px rgba(239,68,68,.3);animation:pulse 1.5s infinite"></span>
+        <span style="font-size:12px;letter-spacing:1px;opacity:.9">LIVE NOW</span>
+      </div>
+      <div>
+        <div style="font-size:22px;font-weight:700;margin-bottom:8px">Хто зараз тренується</div>
+        <div style="opacity:.85;font-size:13px;line-height:1.5">12 людей на майданчику "Олімпійський" · футбол 5×5 почнеться через 20 хв</div>
+      </div>
+      <div style="display:flex;gap:6px">
+        <div style="background:rgba(255,255,255,.2);border-radius:6px;padding:4px 10px;font-size:11px">42 онлайн</div>
+        <div style="background:rgba(255,255,255,.2);border-radius:6px;padding:4px 10px;font-size:11px">8 ивентів</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A · "Активність зараз"</h3>
+      <p>Лента того, что происходит <b>прямо сейчас</b>: check-ins + текущие/ближайшие события. Главное — пульс города.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="discover" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:linear-gradient(135deg,#f59e0b,#ef4444);color:white;padding:24px;display:flex;flex-direction:column;justify-content:space-between;min-height:220px">
+      <div style="font-size:11px;letter-spacing:1px;opacity:.9">🔥 ТРЕНДИ</div>
+      <div>
+        <div style="font-size:22px;font-weight:700;margin-bottom:8px">Куди піти зараз</div>
+        <div style="opacity:.85;font-size:13px;line-height:1.5">Топ-3 майданчики поруч · події, які стартують сьогодні</div>
+      </div>
+      <div style="display:flex;gap:4px">
+        <div style="background:rgba(255,255,255,.2);border-radius:6px;padding:6px 10px;font-size:11px">★ 4.8</div>
+        <div style="background:rgba(255,255,255,.2);border-radius:6px;padding:6px 10px;font-size:11px">800 м</div>
+        <div style="background:rgba(255,255,255,.2);border-radius:6px;padding:6px 10px;font-size:11px">+24%</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B · "Куди піти"</h3>
+      <p>Discovery: топ-площадки рядом, "трендовые" места по росту активности, рекомендации. Главное — найти куда пойти.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="map-live" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0f172a;color:white;padding:0;display:flex;flex-direction:column;justify-content:space-between;min-height:220px;position:relative;overflow:hidden">
+      <div style="position:absolute;inset:0;background-image:radial-gradient(circle at 25% 35%,rgba(34,197,94,.4) 0,transparent 8%),radial-gradient(circle at 65% 50%,rgba(239,68,68,.5) 0,transparent 6%),radial-gradient(circle at 45% 75%,rgba(234,179,8,.4) 0,transparent 7%),radial-gradient(circle at 80% 25%,rgba(34,197,94,.3) 0,transparent 5%);background-size:cover"></div>
+      <div style="position:relative;padding:16px;display:flex;justify-content:space-between">
+        <span style="font-size:11px;letter-spacing:1px;opacity:.7">МАПА · LIVE</span>
+        <span style="font-size:11px;background:rgba(255,255,255,.15);padding:3px 8px;border-radius:4px">3 км</span>
+      </div>
+      <div style="position:relative;padding:16px;background:linear-gradient(transparent,rgba(0,0,0,.7))">
+        <div style="font-size:22px;font-weight:700;margin-bottom:4px">Спорт-мапа вживу́</div>
+        <div style="opacity:.8;font-size:13px">Кожна крапка — людина чи подія. Більша — гарячіше.</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C · "Спорт-мапа live"</h3>
+      <p>Map-first: карта с пульсирующими точками (check-ins, события), цвет — по виду спорта, размер — по кол-ву людей. Дашборд внизу.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="feed" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#fff;color:#0f172a;padding:20px;display:flex;flex-direction:column;justify-content:space-between;min-height:220px;border:1px solid #e2e8f0">
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div style="display:flex;gap:10px;align-items:center;padding:8px;border-radius:8px;background:#f1f5f9">
+          <div style="width:8px;height:32px;background:#22c55e;border-radius:2px"></div>
+          <div style="flex:1">
+            <div style="font-size:11px;font-weight:600">⚽ Футбол · Парк Шевченка</div>
+            <div style="font-size:10px;color:#64748b">за 30 хв · 5/10 гравців</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:10px;align-items:center;padding:8px;border-radius:8px;background:#f1f5f9">
+          <div style="width:8px;height:32px;background:#3b82f6;border-radius:2px"></div>
+          <div style="flex:1">
+            <div style="font-size:11px;font-weight:600">🏀 Стритбол · ХПІ</div>
+            <div style="font-size:10px;color:#64748b">19:00 · 3 гравця</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:10px;align-items:center;padding:8px;border-radius:8px;background:#f1f5f9">
+          <div style="width:8px;height:32px;background:#f59e0b;border-radius:2px"></div>
+          <div style="flex:1">
+            <div style="font-size:11px;font-weight:600">💪 Workout · Сарж. Гора</div>
+            <div style="font-size:10px;color:#64748b">завтра 10:00</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:18px;font-weight:700;margin-top:8px">Розклад поруч</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>D · "Розклад / Афіша"</h3>
+      <p>Календарь-афиша: всё запланированное по времени, по виду спорта. Главное — спланировать день.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+@keyframes pulse {
+  0%,100%{box-shadow:0 0 0 4px rgba(239,68,68,.3)}
+  50%{box-shadow:0 0 0 8px rgba(239,68,68,.1)}
+}
+</style>

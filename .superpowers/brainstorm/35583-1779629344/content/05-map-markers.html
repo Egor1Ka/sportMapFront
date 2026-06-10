@@ -1,0 +1,140 @@
+<h2>Маркери на мапі — як це виглядає?</h2>
+<p class="subtitle">На мапі є майданчики, live check-ins і події. Як це візуально розкласти?</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="heatmap" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0f172a;min-height:240px;position:relative;overflow:hidden">
+      <div style="position:absolute;inset:0;background-image:radial-gradient(circle at 25% 35%,rgba(239,68,68,.7) 0,rgba(239,68,68,.2) 12%,transparent 22%),radial-gradient(circle at 60% 45%,rgba(245,158,11,.6) 0,rgba(245,158,11,.15) 15%,transparent 25%),radial-gradient(circle at 45% 75%,rgba(34,197,94,.5) 0,rgba(34,197,94,.1) 10%,transparent 20%),radial-gradient(circle at 78% 28%,rgba(34,197,94,.4) 0,transparent 18%),radial-gradient(circle at 18% 65%,rgba(245,158,11,.3) 0,transparent 14%)"></div>
+      <div style="position:absolute;top:12px;left:12px;background:rgba(15,23,42,.7);backdrop-filter:blur(8px);border-radius:8px;padding:6px 10px;font-size:10px;color:white">🔥 Heatmap · 3 км</div>
+      <div style="position:absolute;bottom:12px;left:12px;background:rgba(15,23,42,.7);backdrop-filter:blur(8px);border-radius:8px;padding:8px;font-size:10px;color:white;display:flex;gap:6px;align-items:center">
+        <div style="display:flex;align-items:center;gap:3px"><span style="width:8px;height:8px;border-radius:50%;background:#22c55e"></span><span style="font-size:9px">Спокійно</span></div>
+        <div style="display:flex;align-items:center;gap:3px"><span style="width:8px;height:8px;border-radius:50%;background:#f59e0b"></span><span style="font-size:9px">Активно</span></div>
+        <div style="display:flex;align-items:center;gap:3px"><span style="width:8px;height:8px;border-radius:50%;background:#ef4444"></span><span style="font-size:9px">🔥 Топ</span></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A · Heatmap гарячості</h3>
+      <p>Кольорова "дим-пляма" над майданчиками. Розмір/колір = активність зараз. Зум — побачив пін з конкретною інфою. Атмосферно, але деталей мало без кліку.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="pins" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1e293b;min-height:240px;position:relative;overflow:hidden">
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#1e293b 0%,#334155 100%)"></div>
+
+      <div style="position:absolute;top:30%;left:22%;display:flex;flex-direction:column;align-items:center;gap:2px">
+        <div style="background:#ef4444;color:white;border-radius:12px;padding:4px 8px;font-size:11px;font-weight:700;box-shadow:0 4px 12px rgba(239,68,68,.5)">⚽ 12</div>
+        <div style="width:8px;height:8px;background:#ef4444;transform:rotate(45deg);margin-top:-3px"></div>
+      </div>
+
+      <div style="position:absolute;top:45%;left:58%;display:flex;flex-direction:column;align-items:center">
+        <div style="background:#f59e0b;color:white;border-radius:12px;padding:4px 8px;font-size:11px;font-weight:700;box-shadow:0 4px 12px rgba(245,158,11,.5)">🏀 8</div>
+        <div style="width:8px;height:8px;background:#f59e0b;transform:rotate(45deg);margin-top:-3px"></div>
+      </div>
+
+      <div style="position:absolute;top:70%;left:42%;display:flex;flex-direction:column;align-items:center">
+        <div style="background:#22c55e;color:white;border-radius:12px;padding:4px 8px;font-size:11px;font-weight:700;box-shadow:0 4px 12px rgba(34,197,94,.5)">💪 5</div>
+        <div style="width:8px;height:8px;background:#22c55e;transform:rotate(45deg);margin-top:-3px"></div>
+      </div>
+
+      <div style="position:absolute;top:25%;left:72%;display:flex;flex-direction:column;align-items:center">
+        <div style="background:#64748b;color:white;border-radius:12px;padding:3px 7px;font-size:10px">⚽</div>
+        <div style="width:6px;height:6px;background:#64748b;transform:rotate(45deg);margin-top:-2px"></div>
+      </div>
+
+      <div style="position:absolute;top:60%;left:78%;display:flex;flex-direction:column;align-items:center">
+        <div style="background:#64748b;color:white;border-radius:12px;padding:3px 7px;font-size:10px">🏀</div>
+        <div style="width:6px;height:6px;background:#64748b;transform:rotate(45deg);margin-top:-2px"></div>
+      </div>
+
+      <div style="position:absolute;top:12px;left:12px;background:rgba(15,23,42,.8);backdrop-filter:blur(8px);border-radius:8px;padding:6px 10px;font-size:10px;color:white">📍 Піни активності</div>
+
+      <div style="position:absolute;bottom:12px;left:12px;background:rgba(15,23,42,.8);backdrop-filter:blur(8px);border-radius:8px;padding:6px 10px;font-size:9px;color:white">Колір = вид · Цифра = людей зараз</div>
+    </div>
+    <div class="card-body">
+      <h3>B · Кольорові піни з лічильником</h3>
+      <p>Кожен майданчик — пін. Колір — вид спорту. Цифра — людей зараз. Сірий пін = майданчик без активності. Конкретно, читабельно з першого погляду.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="clusters" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1e293b;min-height:240px;position:relative;overflow:hidden">
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#1e293b 0%,#0f172a 100%)"></div>
+
+      <div style="position:absolute;top:28%;left:22%">
+        <div style="width:56px;height:56px;border-radius:50%;background:radial-gradient(circle,#ef4444 0%,#dc2626 100%);box-shadow:0 0 0 8px rgba(239,68,68,.2),0 4px 16px rgba(239,68,68,.5);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white">
+          <div style="font-size:14px;font-weight:800">17</div>
+          <div style="font-size:9px;opacity:.9">⚽🏀💪</div>
+        </div>
+      </div>
+
+      <div style="position:absolute;top:50%;left:55%">
+        <div style="width:42px;height:42px;border-radius:50%;background:radial-gradient(circle,#f59e0b 0%,#d97706 100%);box-shadow:0 0 0 6px rgba(245,158,11,.2),0 4px 12px rgba(245,158,11,.5);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white">
+          <div style="font-size:13px;font-weight:800">8</div>
+          <div style="font-size:8px;opacity:.9">🏀</div>
+        </div>
+      </div>
+
+      <div style="position:absolute;top:72%;left:42%">
+        <div style="width:34px;height:34px;border-radius:50%;background:radial-gradient(circle,#22c55e 0%,#15803d 100%);box-shadow:0 0 0 4px rgba(34,197,94,.2);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white">
+          <div style="font-size:12px;font-weight:800">5</div>
+          <div style="font-size:8px;opacity:.9">💪</div>
+        </div>
+      </div>
+
+      <div style="position:absolute;top:20%;left:72%">
+        <div style="width:18px;height:18px;border-radius:50%;background:#64748b;border:2px solid #94a3b8"></div>
+      </div>
+
+      <div style="position:absolute;top:65%;left:78%">
+        <div style="width:18px;height:18px;border-radius:50%;background:#64748b;border:2px solid #94a3b8"></div>
+      </div>
+
+      <div style="position:absolute;top:12px;left:12px;background:rgba(15,23,42,.8);backdrop-filter:blur(8px);border-radius:8px;padding:6px 10px;font-size:10px;color:white">⭕ Кластери</div>
+
+      <div style="position:absolute;bottom:12px;left:12px;background:rgba(15,23,42,.8);backdrop-filter:blur(8px);border-radius:8px;padding:6px 10px;font-size:9px;color:white">Розмір = людей · Колір = "гарячість"</div>
+    </div>
+    <div class="card-body">
+      <h3>C · Кружки-кластери</h3>
+      <p>Майданчик = коло. Розмір — кількість активних людей. Колір — рівень "гарячості" (червоний = топ). Сірі дрібні — порожні. Виглядає як "пульс міста".</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="layered" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1e293b;min-height:240px;position:relative;overflow:hidden">
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%)"></div>
+
+      <div style="position:absolute;inset:0;background-image:radial-gradient(circle at 25% 35%,rgba(239,68,68,.25) 0,transparent 15%),radial-gradient(circle at 60% 45%,rgba(245,158,11,.2) 0,transparent 18%)"></div>
+
+      <div style="position:absolute;top:30%;left:22%;display:flex;flex-direction:column;align-items:center;gap:2px">
+        <div style="background:#ef4444;color:white;border-radius:16px;padding:4px 10px;font-size:11px;font-weight:700;display:flex;align-items:center;gap:4px;box-shadow:0 4px 12px rgba(239,68,68,.5)"><span style="width:6px;height:6px;background:white;border-radius:50%;animation:pls 1.5s infinite"></span> 12 ⚽</div>
+      </div>
+
+      <div style="position:absolute;top:45%;left:58%;display:flex;flex-direction:column;align-items:center">
+        <div style="background:#3b82f6;color:white;border-radius:16px;padding:4px 10px;font-size:10px;font-weight:600;display:flex;align-items:center;gap:4px">📅 18:00</div>
+      </div>
+
+      <div style="position:absolute;top:25%;left:72%">
+        <div style="width:14px;height:14px;border-radius:50%;background:#64748b;border:2px solid white;opacity:.6"></div>
+      </div>
+
+      <div style="position:absolute;top:60%;left:78%">
+        <div style="width:14px;height:14px;border-radius:50%;background:#64748b;border:2px solid white;opacity:.6"></div>
+      </div>
+
+      <div style="position:absolute;top:12px;left:12px;display:flex;gap:4px">
+        <span style="background:rgba(239,68,68,.9);color:white;border-radius:12px;padding:3px 8px;font-size:9px;font-weight:700">🔴 Live</span>
+        <span style="background:rgba(59,130,246,.9);color:white;border-radius:12px;padding:3px 8px;font-size:9px;font-weight:700">📅 Події</span>
+        <span style="background:rgba(100,116,139,.9);color:white;border-radius:12px;padding:3px 8px;font-size:9px;font-weight:700">📍 Майданчики</span>
+      </div>
+
+      <style>@keyframes pls{0%,100%{opacity:1}50%{opacity:.3}}</style>
+    </div>
+    <div class="card-body">
+      <h3>D · Шари з фільтрами</h3>
+      <p>Три шари: 🔴 live check-ins (червоні бейджі), 📅 події (сині), 📍 майданчики (сірі піни). Зверху — toggle фільтрів. Heatmap-підкладка для гарячості.</p>
+    </div>
+  </div>
+
+</div>

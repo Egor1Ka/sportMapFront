@@ -1,0 +1,104 @@
+<h2>Можна об'єднати — три гібриди</h2>
+<p class="subtitle">Який ритм сторінки тобі ближче?</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="map-first" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0f172a;color:white;padding:0;min-height:280px;position:relative;overflow:hidden;display:flex;flex-direction:column">
+      <div style="flex:1;background-image:radial-gradient(circle at 25% 35%,rgba(34,197,94,.5) 0,transparent 8%),radial-gradient(circle at 65% 50%,rgba(239,68,68,.6) 0,transparent 7%),radial-gradient(circle at 45% 75%,rgba(234,179,8,.4) 0,transparent 7%),radial-gradient(circle at 80% 25%,rgba(34,197,94,.3) 0,transparent 5%);position:relative">
+        <div style="position:absolute;top:12px;left:12px;background:rgba(255,255,255,.1);backdrop-filter:blur(6px);border-radius:8px;padding:6px 10px;font-size:11px">🔥 Гарячі поруч</div>
+        <div style="position:absolute;top:12px;right:12px;display:flex;gap:4px">
+          <div style="background:rgba(255,255,255,.15);border-radius:4px;padding:3px 8px;font-size:10px">⚽</div>
+          <div style="background:rgba(255,255,255,.15);border-radius:4px;padding:3px 8px;font-size:10px">🏀</div>
+          <div style="background:rgba(255,255,255,.15);border-radius:4px;padding:3px 8px;font-size:10px">💪</div>
+        </div>
+      </div>
+      <div style="background:white;color:#0f172a;padding:10px;display:flex;gap:6px;overflow-x:auto">
+        <div style="min-width:120px;background:#f1f5f9;border-radius:8px;padding:8px">
+          <div style="font-size:10px;font-weight:700">⚽ Парк Шевченка</div>
+          <div style="font-size:9px;color:#64748b">12 онлайн · 500м</div>
+        </div>
+        <div style="min-width:120px;background:#f1f5f9;border-radius:8px;padding:8px">
+          <div style="font-size:10px;font-weight:700">🏀 ХПІ</div>
+          <div style="font-size:9px;color:#64748b">8 онлайн · 1.2км</div>
+        </div>
+        <div style="min-width:120px;background:#f1f5f9;border-radius:8px;padding:8px">
+          <div style="font-size:10px;font-weight:700">💪 Сарж. Гора</div>
+          <div style="font-size:9px;color:#64748b">5 онлайн · 2км</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>1 · Map-first з нижнім скролом</h3>
+      <p>Карта зверху на 60% екрану, знизу горизонтальний скрол "топ поруч" + події. Як Uber/Google Maps для спорту.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="feed-first" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:white;color:#0f172a;padding:14px;min-height:280px;display:flex;flex-direction:column;gap:8px;border:1px solid #e2e8f0">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div style="font-size:14px;font-weight:700">🔴 Зараз активно <span style="color:#64748b;font-weight:500;font-size:11px">· 42 людини</span></div>
+        <div style="font-size:10px;color:#3b82f6">мапа →</div>
+      </div>
+      <div style="display:flex;gap:6px;overflow:hidden">
+        <div style="min-width:90px;height:60px;border-radius:8px;background:linear-gradient(135deg,#22c55e,#15803d);color:white;padding:8px;display:flex;flex-direction:column;justify-content:space-between">
+          <div style="font-size:10px">⚽ Футбол</div>
+          <div style="font-size:9px;opacity:.9">Шевченка · 12</div>
+        </div>
+        <div style="min-width:90px;height:60px;border-radius:8px;background:linear-gradient(135deg,#f59e0b,#b45309);color:white;padding:8px;display:flex;flex-direction:column;justify-content:space-between">
+          <div style="font-size:10px">🏀 Стритбол</div>
+          <div style="font-size:9px;opacity:.9">ХПІ · 8</div>
+        </div>
+        <div style="min-width:90px;height:60px;border-radius:8px;background:linear-gradient(135deg,#3b82f6,#1d4ed8);color:white;padding:8px;display:flex;flex-direction:column;justify-content:space-between">
+          <div style="font-size:10px">💪 Workout</div>
+          <div style="font-size:9px;opacity:.9">Сарж · 5</div>
+        </div>
+      </div>
+      <div style="font-size:14px;font-weight:700;margin-top:4px">🔥 Топ майданчики</div>
+      <div style="display:flex;gap:8px;align-items:center;padding:6px;background:#f1f5f9;border-radius:8px">
+        <div style="width:24px;height:24px;border-radius:6px;background:#0ea5e9;color:white;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">1</div>
+        <div style="flex:1">
+          <div style="font-size:11px;font-weight:600">Олімпійський</div>
+          <div style="font-size:9px;color:#64748b">★4.8 · 500м · +24%</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;padding:6px;background:#f1f5f9;border-radius:8px">
+        <div style="width:24px;height:24px;border-radius:6px;background:#64748b;color:white;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">2</div>
+        <div style="flex:1">
+          <div style="font-size:11px;font-weight:600">Парк Шевченка</div>
+          <div style="font-size:9px;color:#64748b">★4.6 · 800м</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>2 · Feed-first, мапа — другий екран</h3>
+      <p>Сторінка-стрічка: блоки "Зараз активно", "Топ майданчики", "Найближчі події". Кнопка "→ мапа" відкриває карту окремо.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="split" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:0;min-height:280px;display:flex">
+      <div style="flex:1;background:#0f172a;background-image:radial-gradient(circle at 30% 40%,rgba(34,197,94,.5) 0,transparent 15%),radial-gradient(circle at 60% 60%,rgba(239,68,68,.5) 0,transparent 12%),radial-gradient(circle at 70% 30%,rgba(234,179,8,.4) 0,transparent 10%);position:relative">
+        <div style="position:absolute;top:10px;left:10px;color:white;font-size:10px;opacity:.7">Live · 3км</div>
+      </div>
+      <div style="flex:1;background:white;color:#0f172a;padding:10px;display:flex;flex-direction:column;gap:6px">
+        <div style="font-size:11px;font-weight:700">🔥 Топ поруч</div>
+        <div style="background:#f1f5f9;border-radius:6px;padding:5px;font-size:9px">
+          <b>1. Олімпійський</b><br><span style="color:#64748b">12 онлайн · ★4.8</span>
+        </div>
+        <div style="background:#f1f5f9;border-radius:6px;padding:5px;font-size:9px">
+          <b>2. ХПІ</b><br><span style="color:#64748b">8 онлайн · ★4.6</span>
+        </div>
+        <div style="font-size:11px;font-weight:700;margin-top:4px">📅 Сьогодні</div>
+        <div style="background:#fef3c7;border-radius:6px;padding:5px;font-size:9px">
+          <b>⚽ 18:00 Футбол 5×5</b><br><span style="color:#64748b">Парк Шевченка · 5/10</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>3 · Split: мапа + список</h3>
+      <p>Десктоп: ліворуч мапа на повний зріст, праворуч скрольний дашборд (топи, події, активність). На мобільному — табами.</p>
+    </div>
+  </div>
+
+</div>

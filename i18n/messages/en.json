@@ -1,0 +1,709 @@
+{
+	"metadata": {
+		"title": "Dvir — Play near you",
+		"description": "Find sports courts and pick-up games near you."
+	},
+	"nav": {
+		"map": "Map",
+		"activity": "Activity",
+		"moderation": "Moderation"
+	},
+	"qrPrint": {
+		"tagline": "Playgrounds in your city"
+	},
+	"sportsMapPages": {
+		"list": {
+			"loadError": "Failed to load points",
+			"createPlayground": "Create playground",
+			"loadingMap": "Loading map…"
+		},
+		"detail": {
+			"loadError": "Failed to load playground",
+			"notFound": "Playground not found",
+			"backToMap": "Back to map",
+			"unknownError": "Unknown error",
+			"noName": "Untitled",
+			"heroPhotoAria": "Open photo fullscreen",
+			"photoOpenAria": "Open photo {n}",
+			"photoAlt": "Photo {n}",
+			"edit": "Edit",
+			"mapBreadcrumb": "Map",
+			"tabActivity": "Activity",
+			"tabOverview": "Overview",
+			"descriptionTitle": "Description",
+			"noDescription": "No description yet",
+			"sportsTitle": "Sports",
+			"photosTitle": "Photos",
+			"locationTitle": "Location",
+			"noAddress": "Address not specified",
+			"getDirections": "Get directions",
+			"openInOsm": "Open in OpenStreetMap",
+			"share": "Share",
+			"copySuccess": "Link copied",
+			"copyError": "Failed to copy link",
+			"addedOn": "Added {date}"
+		},
+		"edit": {
+			"loadError": "Failed to load playground",
+			"notFound": "Playground not found",
+			"backToMap": "Back to map",
+			"backToPlayground": "Back to playground",
+			"editingBadge": "Editing",
+			"noName": "Untitled",
+			"latMustBeNumber": "Must be a number",
+			"latRange": "Between -90 and 90",
+			"lngMustBeNumber": "Must be a number",
+			"lngRange": "Between -180 and 180",
+			"sectionBasic": "Basic information",
+			"fieldName": "Name",
+			"namePlaceholder": "Stadium Meteor",
+			"fieldDescription": "Description",
+			"descriptionPlaceholder": "Surface, lighting, opening hours...",
+			"descriptionHint": "Up to 2000 characters",
+			"sectionAddress": "Address",
+			"fieldFullAddress": "Full address",
+			"fullAddressPlaceholder": "17 Sicheslavska Naberezhna St.",
+			"fieldCity": "City",
+			"fieldDistrict": "District",
+			"fieldStreet": "Street",
+			"sectionCoords": "Coordinates",
+			"fieldLat": "Latitude (lat)",
+			"fieldLng": "Longitude (lng)",
+			"sectionSports": "Sports",
+			"sportsSelected": "{count} selected",
+			"sportsNone": "none selected",
+			"sectionPhotos": "Photos",
+			"addPhoto": "Add photo",
+			"photoAutoSaveHint": "Saved automatically — the button below is for text fields only",
+			"addFirstPhoto": "Add first photo",
+			"photoFormats": "JPG, PNG, WebP, GIF — up to {max}",
+			"photoAlt": "Photo {n}",
+			"deletePhotoAria": "Delete photo",
+			"photoUnsupportedFormat": "Unsupported format",
+			"photoAllowedFormats": "Allowed: JPG, PNG, WebP, GIF",
+			"photoTooLarge": "File too large",
+			"photoTooLargeDesc": "Size {size} — maximum {max}",
+			"photoAdded": "Photo added",
+			"photoUploadError": "Failed to upload photo",
+			"photoRemoved": "Photo removed",
+			"photoRemoveError": "Failed to remove photo",
+			"noChangesHint": "Make changes to fields to save",
+			"cancel": "Cancel"
+		},
+		"new": {
+			"latRequired": "Pick a location on the map",
+			"latRange": "Between -90 and 90",
+			"lngRequired": "Pick a location on the map",
+			"lngRange": "Between -180 and 180",
+			"backToMap": "Back to map",
+			"mapBreadcrumb": "Map",
+			"breadcrumbNew": "New playground",
+			"pageTitle": "Create playground",
+			"pageSubtitle": "Fill in the basic information and pick a location on the map. Photos and other details can be added after creation.",
+			"sectionBasic": "Basic information",
+			"fieldName": "Name",
+			"namePlaceholder": "Stadium Meteor",
+			"fieldDescription": "Description",
+			"descriptionPlaceholder": "Surface, lighting, opening hours...",
+			"descriptionHint": "Up to 2000 characters",
+			"sectionLocation": "Location",
+			"sectionAddress": "Address",
+			"fieldFullAddress": "Full address",
+			"fullAddressPlaceholder": "17 Sicheslavska Naberezhna St.",
+			"fullAddressAutoHint": "Auto-filled when you pick a location on the map",
+			"fieldCity": "City",
+			"fieldDistrict": "District",
+			"fieldStreet": "Street",
+			"sectionSports": "Sports",
+			"sportsSelected": "{count} selected",
+			"sportsNone": "none selected",
+			"sectionPhotos": "Photos",
+			"addPhoto": "Add photo",
+			"photoAutoUploadHint": "Files will upload automatically after the playground is created",
+			"dropzoneLabel": "Select or drag photos here",
+			"photoFormats": "JPG, PNG, WebP, GIF — up to {max}",
+			"deletePhotoAria": "Remove photo",
+			"someFilesRejected": "Some files were not added",
+			"allowedFormatsHint": "Allowed JPG/PNG/WebP/GIF up to {max}",
+			"uploadingPhoto": "Uploading photo {uploaded}/{total}…",
+			"uploadDone": "Photos uploaded ({uploaded}/{total})",
+			"uploadPartial": "Uploaded {uploaded}/{total} photos — others can be added on the edit page",
+			"loadSportsError": "Failed to load sports",
+			"createSuccess": "Playground created",
+			"createError": "Failed to create playground",
+			"readyToCreate": "Ready to create",
+			"pickLocationHint": "Pick a location on the map to continue",
+			"cancel": "Cancel",
+			"submitButton": "Create playground"
+		},
+		"print": {
+			"loadError": "Failed to load playground",
+			"loadErrorDesc": "Check the link and try again.",
+			"retry": "Try again",
+			"backToMap": "To map",
+			"reprintButton": "Print again",
+			"backToPlayground": "To playground"
+		}
+	},
+	"feedbackUi": {
+		"comments": {
+			"validationMin": "Please enter a comment",
+			"validationMax": "Maximum {max} characters",
+			"loadError": "Failed to load comments",
+			"toastPublished": "Comment published",
+			"toastDeleted": "Comment deleted",
+			"heading": "Comments",
+			"fieldLabel": "Your comment",
+			"placeholder": "Share your thoughts about this playground",
+			"fieldDescription": "Up to {max} characters.",
+			"buttonSubmitting": "Publishing…",
+			"buttonSubmit": "Publish",
+			"empty": "No comments yet. Be the first!",
+			"paginationPrev": "Previous",
+			"paginationNext": "Next"
+		},
+		"rating": {
+			"loadError": "Failed to load ratings",
+			"toastThankYou": "Thank you for your rating!",
+			"ratingsCount": "{count, plural, one {{count} rating} other {{count} ratings}}",
+			"noRatings": "No ratings yet",
+			"yourRatingLabel": "Your rating"
+		},
+		"commentItem": {
+			"userFallback": "User",
+			"deleteAriaLabel": "Delete comment",
+			"deleteDialogTitle": "Delete comment?",
+			"deleteDialogDescription": "This action cannot be undone. The comment will be permanently deleted.",
+			"deleteDialogCancel": "Cancel",
+			"deleteDialogConfirm": "Delete"
+		},
+		"stars": {
+			"starAriaLabel": "{count, plural, one {Rate {count} star} other {Rate {count} stars}}",
+			"valueOfMax": "{value} out of {max}",
+			"noRating": "No rating",
+			"chooseRating": "Choose a rating"
+		},
+		"section": {
+			"title": "Feedback",
+			"signInTitle": "Sign in to leave a rating and comment",
+			"signInDescription": "Viewing ratings and comments is open to everyone, but only signed-in users can post.",
+			"signIn": "Sign in"
+		}
+	},
+	"sportsMapUi": {
+		"map": {
+			"fallbackTitle": "Untitled",
+			"sportObject": "sports facility",
+			"ratingAria": "Average rating {average} out of 5"
+		},
+		"filter": {
+			"all": "All sports",
+			"count": "{count, plural, one {{count} sport} other {{count} sports}}",
+			"heading": "Sports",
+			"reset": "Reset"
+		},
+		"lightbox": {
+			"close": "Close",
+			"prev": "Previous photo",
+			"next": "Next photo",
+			"photoAlt": "Photo {n}"
+		},
+		"locationPicker": {
+			"searchPlaceholder": "Search by address…",
+			"clearSearch": "Clear search",
+			"nothingFound": "Nothing found",
+			"clickHint": "Click on the map or drag the marker",
+			"myLocation": "My location",
+			"latLabel": "Latitude (lat)",
+			"lngLabel": "Longitude (lng)"
+		},
+		"printQr": {
+			"ariaLabel": "Print playground QR code",
+			"label": "QR code to print"
+		},
+		"eventDetail": {
+			"loadError": "Failed to load event",
+			"notFound": "Event not found",
+			"playground": "Playground"
+		},
+		"eventTime": {
+			"today": "Today",
+			"tomorrow": "Tomorrow",
+			"minutesShort": "m",
+			"hoursShort": "h"
+		}
+	},
+	"activity": {
+		"title": "Activity",
+		"subtitle": "What's happening now",
+		"filters": {
+			"all": "All sports"
+		},
+		"sections": {
+			"events": "Events",
+			"eventsTagline": "Upcoming games",
+			"eventsEmpty": "No upcoming events nearby yet",
+			"playgrounds": "Top playgrounds",
+			"playgroundsTagline": "Hottest spots",
+			"playgroundsEmpty": "Nothing here yet"
+		},
+		"geo": {
+			"pending": "Requesting geolocation…",
+			"denied": "Allow geolocation",
+			"city": "City",
+			"blockedTitle": "Geolocation is blocked",
+			"blockedHint": "Click 🔒 in the address bar, then \"Site settings\" → \"Location\" → \"Allow\".",
+			"blockedHintShort": "Unblock in browser site settings"
+		},
+		"hero": {
+			"title": "Discover playgrounds and events nearby",
+			"subtitle": "Allow geolocation and we'll surface top playgrounds and upcoming games near you.",
+			"cta": "Allow geolocation",
+			"hint": "While geolocation is off, we're showing the country-wide top."
+		},
+		"feed": {
+			"live": {
+				"badge": "LIVE",
+				"title": "{count, plural, one {# person playing} other {# people playing}}",
+				"distanceMeters": "{meters} m",
+				"distanceKm": "{km} km"
+			},
+			"soon": {
+				"badge": "SOON",
+				"titleMinutes": "{sport} in {minutes} min",
+				"titleHours": "{sport} in {hours} h",
+				"titleTomorrow": "{sport} tomorrow at {time}"
+			},
+			"top": {
+				"badge": "TOP"
+			},
+			"empty": "It's quiet around here right now"
+		},
+		"error": {
+			"title": "Could not load data",
+			"retry": "Try again"
+		}
+	},
+	"moderation": {
+		"banner": {
+			"title": "This is not your playground",
+			"description": "Changes to name, description, address and coordinates will be sent to the admin for review. Sports and photos can be added immediately."
+		},
+		"submit": {
+			"propose": "Propose changes",
+			"save": "Save changes",
+			"hint": "Other users will see your changes after the admin approves them"
+		},
+		"toast": {
+			"saved": "Changes saved",
+			"saveFailed": "Failed to save changes",
+			"submitted": "Request submitted",
+			"submittedDesc": "The admin will review your changes",
+			"nothingToChange": "Nothing to change"
+		}
+	},
+	"admin": {
+		"requests": {
+			"title": "Moderation queue",
+			"subtitle": "Review and approve or reject proposed edits",
+			"empty": "No requests to moderate",
+			"playgroundFallbackName": "Untitled",
+			"tabs": {
+				"pending": "Pending",
+				"approved": "Approved",
+				"rejected": "Rejected"
+			},
+			"approve": "Approve",
+			"reject": "Reject",
+			"proposedBy": "Proposed by",
+			"allFieldsUnchanged": "All proposed fields already match the current state",
+			"toastApproved": "Changes applied",
+			"toastRejected": "Request rejected",
+			"toastApproveFailed": "Failed to approve request",
+			"toastRejectFailed": "Failed to reject request",
+			"field": {
+				"name": "Name",
+				"description": "Description",
+				"address": "Address",
+				"fullAddress": "Full",
+				"city": "City",
+				"district": "District",
+				"street": "Street",
+				"lat": "Latitude",
+				"lng": "Longitude"
+			}
+		}
+	},
+	"landing": {
+		"nav": {
+			"logo": "Dvir",
+			"howItWorks": "How",
+			"features": "Features",
+			"map": "Map",
+			"login": "Sign in",
+			"signup": "Open map"
+		},
+		"hero": {
+			"badge": "Live · 120+ spots mapped",
+			"titleLine1": "Every sport.",
+			"titleLine2Highlight": "Every",
+			"titleLine2Suffix": " playground.",
+			"subtitle": "Football, basketball, fitness, climbing, yoga, even chess — every sports playground in your city, on one live map. Free.",
+			"primaryCta": "Open the map",
+			"secondaryCta": "Sign in",
+			"scrollHint": "Scroll",
+			"stats": {
+				"playgrounds": { "value": "120+", "label": "Spots" },
+				"cities": { "value": "15", "label": "Cities" },
+				"reviews": { "value": "800+", "label": "Reviews" }
+			},
+			"map": {
+				"live": "Live preview",
+				"count": "120+ spots",
+				"open": "Open full map"
+			}
+		},
+		"mapBlock": {
+			"eyebrow": "01 / Map",
+			"title": "Every court. Live on one map.",
+			"description": "See every sports playground in your city on a real-time map. Filter by sport, zoom in, tap any pin to see photos, ratings, and details.",
+			"cta": "Open the map",
+			"countLabel": "120+ spots · live"
+		},
+		"photosBlock": {
+			"eyebrow": "02 / Photos",
+			"title": "Real photos. From real players.",
+			"description": "Every playground has photos shot by the community. See exactly what you're walking into — surface, lighting, vibe, everything.",
+			"carousel": [
+				{ "tag": "Football · Astroturf", "name": "Olimpiyskiy Field", "rating": "4.9" },
+				{ "tag": "Basketball · Outdoor", "name": "Park Avenue Court", "rating": "4.8" },
+				{ "tag": "Tennis · Hard court", "name": "CSC Tennis Club", "rating": "4.6" },
+				{ "tag": "Skate · Concrete", "name": "Skate Plaza", "rating": "4.7" },
+				{ "tag": "Fitness · Outdoor gym", "name": "Workout Zone", "rating": "4.5" }
+			]
+		},
+		"qrBlock": {
+			"eyebrow": "03 / QR codes",
+			"title": "Print one. Share everywhere.",
+			"description": "Generate and print a QR for any playground. Scan it to open instantly — perfect for clubs, schools, events.",
+			"bullets": {
+				"print": "Print directly from the playground page",
+				"share": "Share to chats, posters, equipment",
+				"scan": "Anyone scans, lands on the playground in 1 tap"
+			},
+			"cardTitle": "Park Avenue Court",
+			"cardSubtitle": "dvir.app/p/park-avenue",
+			"cardUrl": "https://dvir.app/p/park-avenue"
+		},
+		"howItWorks": {
+			"eyebrow": "How it works",
+			"title": "Three steps. One court at a time.",
+			"steps": {
+				"find": {
+					"title": "Find a court",
+					"description": "Open the map and discover playgrounds near you, with photos and details."
+				},
+				"rate": {
+					"title": "Rate and review",
+					"description": "Leave a rating, drop a comment, help other players pick the right spot."
+				},
+				"share": {
+					"title": "Share with a QR",
+					"description": "Generate a QR code, print it, share it. Anyone scans and they're there."
+				}
+			}
+		},
+		"finalCta": {
+			"line1": "Pick a court.",
+			"line2": "Go play.",
+			"subtitle": "Open the map. Find a playground. Make it yours.",
+			"button": "Open the map"
+		},
+		"footer": {
+			"copyright": "© 2026 Dvir. All rights reserved.",
+			"demo": "Demo",
+			"components": "Components"
+		}
+	},
+	"login": {
+		"title": "Welcome back",
+		"description": "Sign in to your account",
+		"googleLogin": "Sign in with Google",
+		"noAccount": "Don't have an account?",
+		"signupLink": "Sign up",
+		"terms": "By continuing, you agree to the",
+		"termsOfService": "Terms of Service",
+		"and": "and",
+		"privacyPolicy": "Privacy Policy"
+	},
+	"signup": {
+		"title": "Create an account",
+		"description": "Get started with your Google account",
+		"googleSignup": "Sign up with Google",
+		"hasAccount": "Already have an account?",
+		"loginLink": "Sign in",
+		"terms": "By continuing, you agree to the",
+		"termsOfService": "Terms of Service",
+		"and": "and",
+		"privacyPolicy": "Privacy Policy"
+	},
+	"demo": {
+		"title": "shadcn/ui Demo",
+		"description": "All shadcn/ui components in one place."
+	},
+	"billing": {
+		"plans": {
+			"free": {
+				"name": "Free",
+				"description": "Perfect for side projects",
+				"features": [
+					"Up to 3 projects",
+					"Dashboard access",
+					"Community support"
+				]
+			},
+			"pro": {
+				"name": "Pro",
+				"description": "For professionals",
+				"features": [
+					"Unlimited projects",
+					"Dashboard access",
+					"Export data",
+					"API access",
+					"Priority support"
+				]
+			}
+		},
+		"products": {
+			"export_pack": {
+				"name": "Starter Pack",
+				"features": ["Export data", "5000 MB storage"]
+			}
+		},
+		"period": {
+			"month": "/month",
+			"year": "/year"
+		}
+	},
+	"booking": {
+		"services": "Services",
+		"slotMode": "Slot mode",
+		"modes": {
+			"fixed": "Fixed",
+			"optimal": "Optimal",
+			"dynamic": "Dynamic"
+		},
+		"modeDescriptions": {
+			"fixed": "Even grid from start to end of work day",
+			"optimal": "Grid + extra slots right after bookings",
+			"dynamic": "After last booking, slots shift forward"
+		},
+		"min": "min",
+		"selectService": "Select a service on the left",
+		"selectServiceAndTime": "Select a service and time to create a booking",
+		"clickDashedZone": "Click on a dashed zone in the calendar",
+		"startTime": "Start time",
+		"endTime": "End time",
+		"duration": "Duration",
+		"price": "Price",
+		"status": "Status",
+		"confirmBooking": "Confirm booking",
+		"bookingCreated": "Booking created",
+		"bookingConfirmed": "Booking confirmed",
+		"chooseAnotherTime": "Choose another time",
+		"cancel": "Cancel",
+		"clientInfo": "Client info",
+		"clientName": "Client name *",
+		"enterName": "Enter name",
+		"phone": "Phone",
+		"email": "Email",
+		"creating": "Creating...",
+		"saving": "Saving...",
+		"loading": "Loading...",
+		"loadError": "Failed to load data",
+		"bookingFailed": "Booking failed",
+		"cancelFailed": "Cancel failed",
+		"cancelledByStaff": "Cancelled by staff",
+		"cancelledByAdmin": "Cancelled by admin",
+		"defaultClient": "Client",
+		"selectStaffToView": "Select a staff member to view the schedule",
+		"bookingDetails": "Booking details",
+		"allStaff": "All",
+		"date": "Date",
+		"clientName_label": "Client name",
+		"payment": "Payment",
+		"confirmed": "Confirmed",
+		"pending_payment": "Pending payment",
+		"completed": "Completed",
+		"no_show": "No show",
+		"cancelled": "Cancelled",
+		"markCompleted": "Mark as Completed",
+		"markNoShow": "Mark as No show",
+		"markCancelled": "Mark as Cancelled",
+		"statusUpdateFailed": "Failed to update status",
+		"close": "Close",
+		"validation": {
+			"nameMin": "Name must be at least 2 characters",
+			"invalidEmail": "Invalid email",
+			"timeFormat": "Format HH:MM",
+			"selectDate": "Select a date"
+		},
+		"pickStaffFirst": "Pick a staff member",
+		"pickServiceTitle": "Pick a service:",
+		"noServicesForSlot": "No services fit this slot",
+		"schedule": {
+			"title": "Work schedule",
+			"save": "Save schedule",
+			"settings": "Schedule settings",
+			"settingsDescription": "Change work hours or add exceptions for specific dates",
+			"override": "Date exception",
+			"date": "Date",
+			"workDay": "Work day",
+			"reason": "Reason",
+			"reasonPlaceholder": "Vacation, sick day...",
+			"addException": "Add exception"
+		}
+	},
+	"calendar": {
+		"day": "Day",
+		"week": "Week",
+		"month": "Month",
+		"servicesAndMode": "Services & mode",
+		"mySchedule": "My schedule"
+	},
+	"errors": {
+		"title": "Something went wrong",
+		"description": "An unexpected error occurred. Please try again.",
+		"tryAgain": "Try again",
+		"goHome": "Go to homepage",
+		"notFoundTitle": "Page not found",
+		"notFoundDescription": "The page you're looking for doesn't exist or has been moved.",
+		"api": {
+			"network": "No internet connection. Check your network and try again.",
+			"timeout": "Request timed out. Please try again.",
+			"badRequest": "Invalid request. Please check your data.",
+			"forbidden": "You don't have permission to perform this action.",
+			"notFound": "The requested resource was not found.",
+			"conflict": "This action conflicts with the current state.",
+			"tooManyRequests": "Too many requests. Please wait and try again.",
+			"serverError": "Server error. Please try again later.",
+			"serviceUnavailable": "Service is temporarily unavailable. Please try again later.",
+			"unknown": "An unexpected error occurred. Please try again."
+		}
+	},
+	"events": {
+		"today": "Today",
+		"tomorrow": "Tomorrow",
+		"yesterday": "Yesterday",
+		"upcoming": "Upcoming",
+		"past": "Past",
+		"prev": "Previous",
+		"next": "Next",
+		"totalCount": "Total events: {count}",
+		"emptyPastTitle": "No past events",
+		"emptyPastSubtitle": "Past events will appear here",
+		"rsvpGoing": "I'm in",
+		"rsvpYouAreGoing": "✓ You're going",
+		"rsvpFull": "Full",
+		"createTitle": "Create event",
+		"createCta": "Create event",
+		"created": "Event created",
+		"edit": "Edit",
+		"cancel": "Cancel event",
+		"cancelConfirm": "Cancel this event?",
+		"cancelConfirmDescription": "Everyone who joined will see it was cancelled.",
+		"save": "Save",
+		"saving": "Saving…",
+		"shareCopied": "Link copied",
+		"back": "Back",
+		"share": "Share",
+		"menu": "Menu",
+		"fields": {
+			"sport": "Sport",
+			"when": "When",
+			"duration": "Duration",
+			"limit": "Participant limit",
+			"limitOff": "No limit",
+			"description": "Description",
+			"descriptionPlaceholder": "e.g. 3-on-3 streetball, bring a ball"
+		},
+		"day": {
+			"today": "Today",
+			"tomorrow": "Tomorrow"
+		},
+		"durationPreset": {
+			"30m": "30 min",
+			"1h": "1h",
+			"1h30m": "1h 30m",
+			"2h": "2h",
+			"3h": "3h"
+		},
+		"startsIn": "starts in {value}",
+		"happening": "Happening now · ends at {endTime}",
+		"finished": "Finished",
+		"cancelled": "Cancelled by organizer",
+		"creator": "Organizer",
+		"participants": "{count} going",
+		"participantsLimited": "{count}/{max} going",
+		"freeSpots": "{count} spots left",
+		"emptyTitle": "No events yet",
+		"emptySubtitle": "Be the first to start a game",
+		"loginToCreate": "Log in to create",
+		"loginToJoin": "Log in to join",
+		"errors": {
+			"eventFull": "Event is full",
+			"eventNotActive": "Event is not active",
+			"eventTimeOutOfWindow": "Invalid time",
+			"timeInPast": "Time already passed, pick a later slot",
+			"timeRequired": "Pick a time",
+			"timeInvalid": "Invalid time format",
+			"sportRequired": "Pick a sport"
+		}
+	},
+	"presence": {
+		"title": "{count, plural, =0 {No one is here right now} one {# person on the spot} other {# people on the spot}}",
+		"peopleNow": "on the spot now",
+		"emptyNow": "empty right now",
+		"liveSubtitle": "Game is live — drop by",
+		"quietSubtitle": "Check in first, others will see you",
+		"checkInCta": "I'm on the spot",
+		"checkOutCta": "I left",
+		"youArePresent": "✓ You're here until {time}",
+		"youArePresentNoTime": "✓ You're here",
+		"loginToCheckIn": "Log in to check in"
+	},
+	"seo": {
+		"landing": {
+			"title": "Dvir — Every sport. Every playground.",
+			"description": "Discover sports playgrounds in your city on one live map. Photos, ratings, reviews, and QR codes for every court — football, basketball, fitness, climbing, yoga, and more. Free."
+		},
+		"sportsMap": {
+			"title": "Sports playground map — Dvir",
+			"description": "Interactive map of every sports playground in your city. Filter by sport, see photos, ratings and reviews."
+		},
+		"login": {
+			"title": "Sign in — Dvir",
+			"description": "Sign in to Dvir to save favorites, rate playgrounds, and share QR codes."
+		},
+		"signup": {
+			"title": "Get started — Dvir",
+			"description": "Create your free Dvir account and discover every sports playground in your city."
+		},
+		"dashboard": {
+			"title": "Dashboard — Dvir",
+			"description": "Your Dvir dashboard."
+		},
+		"billing": {
+			"title": "Billing — Dvir",
+			"description": "Manage your Dvir subscription and plan."
+		},
+		"demo": {
+			"title": "Demo — Dvir",
+			"description": "Demo of Dvir features and UI components."
+		},
+		"notFound": {
+			"title": "Not found — Dvir",
+			"description": "The page you are looking for could not be found."
+		}
+	}
+}

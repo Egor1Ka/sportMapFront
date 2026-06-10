@@ -1,0 +1,65 @@
+<h2>Що означає "топ" майданчик?</h2>
+<p class="subtitle">Це визначає, які гравці будуть на верху стрічки і які піни "горять" на мапі</p>
+
+<div class="options">
+
+  <div class="option" data-choice="live-only" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Тільки активність зараз</h3>
+      <p style="margin-bottom:8px"><b>Формула:</b> кількість check-ins за останні 60 хв</p>
+      <div style="background:#f1f5f9;border-radius:8px;padding:10px;font-size:12px;color:#475569">
+        <div>🥇 <b>Парк Шевченка</b> — 12 людей</div>
+        <div>🥈 <b>ХПІ</b> — 8 людей</div>
+        <div>🥉 <b>Саржин Яр</b> — 5 людей</div>
+      </div>
+      <p style="margin-top:8px;font-size:12px;color:#64748b"><b>Сильно:</b> чесно про "зараз".  <b>Слабко:</b> топ-1 завжди один і той самий популярний майданчик.</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="trending" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Трендові (зростання)</h3>
+      <p style="margin-bottom:8px"><b>Формула:</b> приріст активності за добу, нормалізований до середньої</p>
+      <div style="background:#f1f5f9;border-radius:8px;padding:10px;font-size:12px;color:#475569">
+        <div>📈 <b>Саржин Яр</b> — +180% (5 vs 1.7 сер.)</div>
+        <div>📈 <b>Лісопарк</b> — +120% (3 vs 1.4 сер.)</div>
+        <div>📈 <b>Парк Шевченка</b> — +30% (12 vs 9 сер.)</div>
+      </div>
+      <p style="margin-top:8px;font-size:12px;color:#64748b"><b>Сильно:</b> підкреслює "тут щось відбувається". <b>Слабко:</b> маленькі майданчики легко стрибають у топ через 2-3 людини.</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="weighted" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Зважений скоринг <span style="background:#dcfce7;color:#16a34a;padding:1px 6px;border-radius:4px;font-size:11px;margin-left:6px">recommended</span></h3>
+      <p style="margin-bottom:8px"><b>Формула:</b> 0.5×(активність зараз) + 0.3×(приріст) + 0.2×(близькість)</p>
+      <div style="background:#f1f5f9;border-radius:8px;padding:10px;font-size:12px;color:#475569">
+        <div style="display:flex;justify-content:space-between"><span><b>Парк Шевченка</b></span> <span>0.82</span></div>
+        <div style="height:4px;background:#e2e8f0;border-radius:2px;margin:4px 0"><div style="width:82%;height:100%;background:#0ea5e9;border-radius:2px"></div></div>
+        <div style="display:flex;justify-content:space-between"><span><b>Саржин Яр</b></span> <span>0.71</span></div>
+        <div style="height:4px;background:#e2e8f0;border-radius:2px;margin:4px 0"><div style="width:71%;height:100%;background:#0ea5e9;border-radius:2px"></div></div>
+        <div style="display:flex;justify-content:space-between"><span><b>ХПІ</b></span> <span>0.58</span></div>
+        <div style="height:4px;background:#e2e8f0;border-radius:2px;margin:4px 0"><div style="width:58%;height:100%;background:#0ea5e9;border-radius:2px"></div></div>
+      </div>
+      <p style="margin-top:8px;font-size:12px;color:#64748b"><b>Сильно:</b> збалансовано — поруч + активно + росте. Налаштовується ваги. <b>Слабко:</b> "магічна формула", складніше пояснити.</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="multi" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Кілька топ-списків</h3>
+      <p style="margin-bottom:8px"><b>Не одна формула, а 3 окремі підборки:</b></p>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px">
+        <span style="background:#fee2e2;color:#dc2626;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600">🔥 Найгарячіші зараз</span>
+        <span style="background:#fef3c7;color:#92400e;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600">📈 Трендові</span>
+        <span style="background:#dbeafe;color:#1d4ed8;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600">📍 Найближчі</span>
+      </div>
+      <p style="font-size:12px;color:#64748b"><b>Сильно:</b> прозоро, користувач сам обирає за що дивитись. <b>Слабко:</b> більше UI-елементів, складніше дизайнити в одну стрічку.</p>
+    </div>
+  </div>
+
+</div>

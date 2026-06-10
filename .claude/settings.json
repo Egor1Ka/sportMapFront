@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lsof -i :3000 -sTCP:LISTEN)",
+      "Bash(ls /Users/egorzozula/Desktop/Template-frontend/app/[locale]/\\\\\\(app\\\\\\)/)",
+      "Bash(ls /Users/egorzozula/Desktop/Template-frontend/app/[locale]/dashboard/)",
+      "Bash(rm -rf /Users/egorzozula/Desktop/Template-frontend/app/[locale]/dashboard/schedule /Users/egorzozula/Desktop/Template-frontend/app/[locale]/dashboard/org)",
+      "Bash(rmdir /Users/egorzozula/Desktop/Template-frontend/app/[locale]/dashboard)",
+      "Bash(mkdir -p /Users/egorzozula/Desktop/Template-frontend/app/[locale]/staff/schedule /Users/egorzozula/Desktop/Template-frontend/app/[locale]/staff/org/[orgSlug])",
+      "Bash(npx next:*)",
+      "Bash(npx eslint:*)",
+      "Bash(git show:*)",
+      "Bash(grep -r \"Failed to load\\\\|Завантаження\\\\|Не вдалося\" /Users/egorzozula/Desktop/Template-frontend/components/booking /Users/egorzozula/Desktop/Template-frontend/lib --include=*.tsx --include=*.ts)",
+      "Bash(grep -rn [а-яА-ЯіІїЇєЄґҐ] components/booking/ lib/calendar/ app/[locale]/book/ app/[locale]/staff/ app/[locale]/org/ --include=*.tsx --include=*.ts)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

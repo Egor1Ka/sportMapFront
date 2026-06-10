@@ -1,0 +1,203 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+	a,
+	button,
+	[role='button'],
+	[type='button'],
+	[type='submit'],
+	[type='reset'],
+	select,
+	summary,
+	[tabindex]:not([tabindex='-1']),
+	[data-slot$='-trigger'],
+	[data-slot$='-link'],
+	[data-slot$='-item'],
+	[data-slot$='-close'],
+	[data-slot$='-action'],
+	[data-slot$='-cancel'],
+	[data-slot$='-sub-trigger'] {
+		cursor: pointer;
+	}
+
+	[data-slot$='-thumb'] {
+		cursor: grab;
+
+		&:active {
+			cursor: grabbing;
+		}
+	}
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-sans);
+	--font-display: var(--font-space-grotesk), var(--font-sans), system-ui, sans-serif;
+	--font-mono:
+		var(--font-jetbrains-mono), 'JetBrains Mono', ui-monospace, monospace;
+	--color-sidebar-ring: var(--sidebar-ring);
+	--color-sidebar-border: var(--sidebar-border);
+	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+	--color-sidebar-accent: var(--sidebar-accent);
+	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+	--color-sidebar-primary: var(--sidebar-primary);
+	--color-sidebar-foreground: var(--sidebar-foreground);
+	--color-sidebar: var(--sidebar);
+	--color-chart-5: var(--chart-5);
+	--color-chart-4: var(--chart-4);
+	--color-chart-3: var(--chart-3);
+	--color-chart-2: var(--chart-2);
+	--color-chart-1: var(--chart-1);
+	--color-ring: var(--ring);
+	--color-input: var(--input);
+	--color-border: var(--border);
+	--color-destructive: var(--destructive);
+	--color-accent-foreground: var(--accent-foreground);
+	--color-accent: var(--accent);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-muted: var(--muted);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-secondary: var(--secondary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-primary: var(--primary);
+	--color-popover-foreground: var(--popover-foreground);
+	--color-popover: var(--popover);
+	--color-card-foreground: var(--card-foreground);
+	--color-card: var(--card);
+	--color-brand: var(--brand);
+	--color-brand-600: var(--brand-600);
+	--color-brand-foreground: var(--brand-foreground);
+	--color-brand-accent: var(--brand-accent);
+	--color-brand-accent-600: var(--brand-accent-600);
+	--color-success: var(--success);
+	--color-warning: var(--warning);
+	--radius-sm: calc(var(--radius) * 0.6);
+	--radius-md: calc(var(--radius) * 0.8);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) * 1.4);
+	--radius-2xl: calc(var(--radius) * 1.8);
+	--radius-3xl: calc(var(--radius) * 2.2);
+	--radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+	/* Dvir — light theme */
+	--background: #ffffff;
+	--foreground: #1f2937;
+	--card: #ffffff;
+	--card-foreground: #1f2937;
+	--popover: #ffffff;
+	--popover-foreground: #1f2937;
+	--primary: #2f7d5b;
+	--primary-foreground: #ffffff;
+	--secondary: #f6f7f5;
+	--secondary-foreground: #1f2937;
+	--muted: #f6f7f5;
+	--muted-foreground: #5e6b63;
+	--accent: #eef1ec;
+	--accent-foreground: #1f2937;
+	--destructive: #d14545;
+	--border: #e3e6e1;
+	--input: #e3e6e1;
+	--ring: #2f7d5b;
+	--chart-1: #2f7d5b;
+	--chart-2: #4fb286;
+	--chart-3: #e8743b;
+	--chart-4: #d9962b;
+	--chart-5: #5e6b63;
+	--radius: 0.625rem;
+	--sidebar: #f6f7f5;
+	--sidebar-foreground: #1f2937;
+	--sidebar-primary: #2f7d5b;
+	--sidebar-primary-foreground: #ffffff;
+	--sidebar-accent: #eaefea;
+	--sidebar-accent-foreground: #1f2937;
+	--sidebar-border: #e3e6e1;
+	--sidebar-ring: #2f7d5b;
+
+	/* Dvir brand tokens */
+	--brand: #2f7d5b;
+	--brand-600: #256348;
+	--brand-foreground: #ffffff;
+	--brand-accent: #e8743b;
+	--brand-accent-600: #c95e29;
+	--success: #2f7d5b;
+	--warning: #d9962b;
+}
+
+.dark {
+	/* Dvir — dark theme */
+	--background: #0f1512;
+	--foreground: #ecefec;
+	--card: #1b231f;
+	--card-foreground: #ecefec;
+	--popover: #1b231f;
+	--popover-foreground: #ecefec;
+	--primary: #4fb286;
+	--primary-foreground: #0f1512;
+	--secondary: #161d19;
+	--secondary-foreground: #ecefec;
+	--muted: #161d19;
+	--muted-foreground: #9aa8a0;
+	--accent: #232e28;
+	--accent-foreground: #ecefec;
+	--destructive: #e66b6b;
+	--border: #2c3631;
+	--input: #2c3631;
+	--ring: #4fb286;
+	--chart-1: #4fb286;
+	--chart-2: #2f7d5b;
+	--chart-3: #f4894f;
+	--chart-4: #e5b04a;
+	--chart-5: #9aa8a0;
+	--sidebar: #161d19;
+	--sidebar-foreground: #ecefec;
+	--sidebar-primary: #4fb286;
+	--sidebar-primary-foreground: #0f1512;
+	--sidebar-accent: #232e28;
+	--sidebar-accent-foreground: #ecefec;
+	--sidebar-border: #2c3631;
+	--sidebar-ring: #4fb286;
+
+	/* Dvir brand tokens */
+	--brand: #4fb286;
+	--brand-600: #3e9e74;
+	--brand-foreground: #0f1512;
+	--brand-accent: #f4894f;
+	--brand-accent-600: #e0743a;
+	--success: #4fb286;
+	--warning: #e5b04a;
+}
+
+@layer base {
+	* {
+		@apply border-border outline-ring/50;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
+	html {
+		@apply font-sans;
+	}
+}
+
+@keyframes pulse-presence {
+	0%,
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	50% {
+		transform: scale(1.4);
+		opacity: 0.6;
+	}
+}
+
+.animate-pulse-presence {
+	animation: pulse-presence 1.5s ease-in-out infinite;
+}
