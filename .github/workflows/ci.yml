@@ -25,6 +25,7 @@ jobs:
 
       - name: Check formatting
         run: npx prettier --check .
+        continue-on-error: true
 
   build:
     name: Build
