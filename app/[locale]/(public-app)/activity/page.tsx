@@ -95,13 +95,14 @@ const ActivityPage = () => {
 	const tError = useTranslations('activity.error')
 	const tGeo = useTranslations('activity.geo')
 	const prevAttemptRef = useRef(0)
+	const geoReason = geo.status === 'denied' ? geo.reason : null
 
 	useEffect(() => {
 		if (geo.attemptCount <= prevAttemptRef.current) return
 		prevAttemptRef.current = geo.attemptCount
 		if (geo.attemptCount <= 1) return
 		if (geo.status !== 'denied') return
-		const isPermissionDenied = geo.reason === 'permission'
+		const isPermissionDenied = geoReason === 'permission'
 		toast.warning(
 			tGeo(isPermissionDenied ? 'blockedTitle' : 'unavailableTitle'),
 			{
@@ -110,7 +111,7 @@ const ActivityPage = () => {
 				),
 			},
 		)
-	}, [geo.attemptCount, geo.status, geo.reason, tGeo])
+	}, [geo.attemptCount, geo.status, geoReason, tGeo])
 
 	const handleRetry = useCallback(() => {
 		refetch()
