@@ -61,7 +61,7 @@ function PlaygroundQrCode({
 					</span>
 				) : null}
 			</div>
-			<div className="rounded-3xl border border-black/6 bg-white p-4 shadow-[0_18px_50px_-12px_rgba(20,61,44,0.28)] print:border-black/10 print:p-3 print:shadow-none">
+			<div className="w-full max-w-[552px] rounded-3xl border border-black/6 bg-white p-4 shadow-[0_18px_50px_-12px_rgba(20,61,44,0.28)] print:border-black/10 print:p-3 print:shadow-none">
 				<QRCodeSVG
 					value={url}
 					size={size}
@@ -70,6 +70,7 @@ function PlaygroundQrCode({
 					bgColor="#ffffff"
 					fgColor={QR_FOREGROUND}
 					imageSettings={buildLogoSettings(size)}
+					className="block h-auto w-full"
 				/>
 			</div>
 			<span className="max-w-full break-all text-center text-xs text-neutral-500">
