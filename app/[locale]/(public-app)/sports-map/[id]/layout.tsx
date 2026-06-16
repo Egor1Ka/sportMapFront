@@ -25,7 +25,7 @@ const fetchPlayground = async (id: string): Promise<Playground | null> => {
 		})
 		if (!response.ok) return null
 		const json = await response.json()
-		return json.data ?? null
+		return (json.data ?? json) as Playground
 	} catch {
 		return null
 	}
