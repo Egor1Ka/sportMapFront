@@ -253,7 +253,9 @@
 			"city": "City",
 			"blockedTitle": "Geolocation is blocked",
 			"blockedHint": "Click 🔒 in the address bar, then \"Site settings\" → \"Location\" → \"Allow\".",
-			"blockedHintShort": "Unblock in browser site settings"
+			"blockedHintShort": "Unblock in browser site settings",
+			"unavailableTitle": "Couldn't determine your location",
+			"unavailableHint": "Showing top across Ukraine. Check that location services are enabled on your system."
 		},
 		"hero": {
 			"title": "Discover playgrounds and events nearby",

@@ -101,10 +101,16 @@ const ActivityPage = () => {
 		prevAttemptRef.current = geo.attemptCount
 		if (geo.attemptCount <= 1) return
 		if (geo.status !== 'denied') return
-		toast.warning(tGeo('blockedTitle'), {
-			description: tGeo('blockedHint'),
-		})
-	}, [geo.attemptCount, geo.status, tGeo])
+		const isPermissionDenied = geo.reason === 'permission'
+		toast.warning(
+			tGeo(isPermissionDenied ? 'blockedTitle' : 'unavailableTitle'),
+			{
+				description: tGeo(
+					isPermissionDenied ? 'blockedHint' : 'unavailableHint',
+				),
+			},
+		)
+	}, [geo.attemptCount, geo.status, geo.reason, tGeo])
 
 	const handleRetry = useCallback(() => {
 		refetch()

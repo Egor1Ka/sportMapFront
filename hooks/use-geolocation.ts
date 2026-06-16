@@ -65,7 +65,11 @@ const useGeolocation = () => {
 			setDenied('unavailable')
 			return
 		}
-		navigator.geolocation.getCurrentPosition(setGranted, handleError)
+		navigator.geolocation.getCurrentPosition(setGranted, handleError, {
+			enableHighAccuracy: true,
+			timeout: 10000,
+			maximumAge: 300000,
+		})
 	}, [setGranted, handleError, setDenied])
 
 	useEffect(() => {
