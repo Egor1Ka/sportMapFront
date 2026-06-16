@@ -13,7 +13,7 @@ interface PlaygroundQrCodeProps {
 
 const BRAND_GREEN = '#2F7D5B'
 const BRAND_ACCENT = '#E8743B'
-const QR_FOREGROUND = '#143d2c'
+const QR_FOREGROUND = '#000000'
 
 const LOGO_BADGE_SVG = `
 <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
@@ -31,8 +31,8 @@ const LOGO_DATA_URI = `data:image/svg+xml,${encodeURIComponent(LOGO_BADGE_SVG)}`
 
 const buildLogoSettings = (size: number) => ({
 	src: LOGO_DATA_URI,
-	height: Math.round(size * 0.22),
-	width: Math.round(size * 0.22),
+	height: Math.round(size * 0.2),
+	width: Math.round(size * 0.2),
 	excavate: true,
 })
 
