@@ -12,6 +12,8 @@ const POLL_INTERVAL_MS = 60_000
 const BBOX_RADIUS_DEG = 0.05
 const EVENT_FETCH_LIMIT = 8
 const COORD_PRECISION = 6
+// Whole-Ukraine bbox (swLng,swLat,neLng,neLat) — used when geolocation is unavailable.
+const UKRAINE_BBOX = '22.0,44.0,40.5,52.5'
 
 interface ActivityData {
 	playgrounds: Playground[]
@@ -81,7 +83,7 @@ const fetchPlaygroundsGlobal = async (
 	sportCode: string | null,
 ): Promise<Playground[]> => {
 	const response = await playgroundApi.listByBbox({
-		queryParams: { sports: sportCode ?? undefined },
+		queryParams: { bbox: UKRAINE_BBOX, sports: sportCode ?? undefined },
 		silent: true,
 	})
 	return response.items
