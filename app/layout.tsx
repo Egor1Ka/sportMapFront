@@ -1,8 +1,11 @@
+import Script from 'next/script'
 import { NewRelicBrowserScript } from '@/lib/monitoring/new-relic-browser-script'
 import { ThemeProvider } from '@/components/theme-provider'
 import { cn } from '@/lib/utils'
 import { Inter, Space_Grotesk } from 'next/font/google'
 import './globals.css'
+
+const GA_MEASUREMENT_ID = 'G-SCSNSSXC33'
 
 const inter = Inter({ subsets: ['latin', 'cyrillic'], variable: '--font-sans' })
 const spaceGrotesk = Space_Grotesk({
@@ -31,6 +34,16 @@ export default function RootLayout({
 					{children}
 				</ThemeProvider>
 				<NewRelicBrowserScript />
+				<Script
+					src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+					strategy="afterInteractive"
+				/>
+				<Script id="ga4-init" strategy="afterInteractive">
+					{`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');`}
+				</Script>
 			</body>
 		</html>
 	)
