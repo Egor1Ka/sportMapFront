@@ -150,7 +150,9 @@ const ActivityFeedItem = ({ item }: { item: FeedItem }) => {
 	const distanceText = formatDistance(item.distanceMeters, { formatMeters, formatKm })
 	const sportCodes = item.playground.sports.map(pickSportCode)
 	const emoji = pickEmojiFromCodes(sportCodes)
-	const playgroundName = item.playground.name ?? '—'
+	const { street, city, fullAddress } = item.playground.address
+	const playgroundName =
+		item.playground.name ?? street ?? city ?? fullAddress ?? '—'
 	const href = buildHref(item.playground.id)
 
 	if (item.type === 'live') {

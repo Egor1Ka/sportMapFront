@@ -2,16 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
-import {
-	CreditCard,
-	LogIn,
-	LogOut,
-	Moon,
-	MoreVertical,
-	Pencil,
-	Sun,
-} from 'lucide-react'
+import { LogIn, LogOut, Moon, MoreVertical, Pencil, Sun } from 'lucide-react'
 import { useTheme } from 'next-themes'
 
 import {
@@ -63,7 +54,6 @@ function SignInButton() {
 }
 
 function UserMenu({ initialUser }: { initialUser: User }) {
-	const router = useRouter()
 	const [user, setUser] = useState(initialUser)
 	const [editOpen, setEditOpen] = useState(false)
 	const handleLogout = useLogout()
@@ -78,7 +68,6 @@ function UserMenu({ initialUser }: { initialUser: User }) {
 	}
 
 	const openEdit = () => setEditOpen(true)
-	const goBilling = () => router.push('/billing')
 	const toggleTheme = () => setTheme(isDark ? 'light' : 'dark')
 
 	return (
@@ -129,10 +118,6 @@ function UserMenu({ initialUser }: { initialUser: User }) {
 								<DropdownMenuItem onClick={openEdit}>
 									<Pencil />
 									Edit profile
-								</DropdownMenuItem>
-								<DropdownMenuItem onClick={goBilling}>
-									<CreditCard />
-									Billing
 								</DropdownMenuItem>
 								<DropdownMenuItem onClick={toggleTheme}>
 									{isDark ? <Sun /> : <Moon />}
