@@ -33,7 +33,7 @@ export function LanguageSwitcher() {
 				disabled={isPending}
 				className="h-8 px-3 text-xs"
 			>
-				UK
+				UA
 			</Button>
 		</div>
 	)

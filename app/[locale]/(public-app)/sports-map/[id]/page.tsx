@@ -222,6 +222,15 @@ const PlaygroundPage = ({ params }: Props) => {
 		}
 	}, [id, t])
 
+	useEffect(() => {
+		if (!playground) return
+		if (typeof window.gtag !== 'function') return
+		window.gtag('event', 'view_playground', {
+			playground_id: playground.id,
+			playground_name: playground.name ?? 'unnamed',
+		})
+	}, [playground])
+
 	const handleShare = async () => {
 		const url = typeof window !== 'undefined' ? window.location.href : ''
 		try {
